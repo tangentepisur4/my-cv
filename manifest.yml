@@ -1,5 +1,5 @@
 ---
 applications:
- - name: GetStartedNode
+ - name: my-curriculum-vitae
    random-route: true
    memory: 256M

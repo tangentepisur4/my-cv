@@ -1,121 +1,429 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello World</title>
-
-    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv-sande-loh-jonathan</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link href="styles.css" rel="stylesheet"> 
+    <!-- <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div class="container">
+       <div class="row" id="headRow">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="nameCol">
+                <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4" id="nameColleft"><hr/></div>
+                <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4" id="nameRow"><h3><b>SANDÉ LOH JONATHAN</b></h3></div>
+                <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4" id="nameColRight"><hr/></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="skillsResumeFrame">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h3>Développeur JavaScript FullStack</h3></div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h4>Je suis un passionné du développement informatique. J’ai de bonnes valeurs morales,<br />une notion du leadership et un sens de responsabilité qui me permettent de produire des<br />résultats bénéfiques pour mon environnement de travail.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="divPhotoOuter">
+                <div class="img-responsive" id="divPhotoInner"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="skillsDivLevel0">
+                <div id="leftColumn"></div>
+
+                <!-- ----------------- SKILLS DIV THREE 1 ----------------- -->
+
+                <div id="skillsDivLevel1">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skillLeft1">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-1 col-lg-2"></div>
+                                <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8" id="personalDataTextTitle">
+                                    <u><h3 id=""><b>DONNÉES PERSONNELLES</b></h3></u>
+                                </div>
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="afterDataTitle1"></div>
+                                <div class="col-xs-12 col-sm-12 hidden-md hidden-lg" id="afterDataTitle2"></div>
+                            </div>
+
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="nameIcon"><img src="./icons/nameIcon.ico" alt="name icon"></div>
+                                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="nameText">
+                                    <h3 id=""><b>NOM & PRÉNOMS</b></h3>
+                                    <h3 id="">Sandé Loh Jonathan</h3>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-2  col-sm-2  col-md-2 col-lg-2" id="addressIcon"><img src="./icons/addressIcon.ico" alt="address icon"></div>
+                                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="addressText">
+                                    <h3 id=""><b>ADRESSE</b></h3>
+                                    <h3 id="">Cocody, cité des arts</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-2  col-sm-2  col-md-2 col-lg-2" id="phoneIcon"><img src="./icons/phoneIcon.ico" alt="phone icon"></div>
+                                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="phoneText">
+                                    <h3 id=""><b>CONTACTS</b></h3>
+                                    <h3 id="">(+225) 0768983634/ 0504475315/ 0142931991</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-2  col-sm-2  col-md-2 col-lg-2" id="eMailIcon"><img src="./icons/eMailIcon.ico" alt="e-mail icon"></div>
+                                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="eMailText">
+                                    <h3 id=""><b>E-MAIL</b></h3>
+                                    <h3 id="">jonathansande25@yahoo.com</h3>
+                                </div>
+                            </div>                        
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skillRight1">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-1 col-lg-2"></div>
+                                <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
+                                <div class="hidden-xs hidden-sm col-md-9 col-lg-8" id="personalDataTextTitle">
+                                    <u><h3 id=""><b></b></h3></u>
+                                </div>
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="afterDataTitle1"></div>
+                                <!-- <div class="hidden-xs hidden-sm hidden-md hidden-lg" id="afterDataTitle2"></div> -->
+                            </div>
+
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="languageIcon"><img src="./icons/languageIcon.ico" alt="language icon"></div>
+                                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="languageText">
+                                    <div class="row" id="innerRow">
+                                        <h3 id=""><b>LANGUES:</b></h3>
+                                    </div>
+                                    <div class="row" id="innerRow">
+                                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="frenchText">
+                                            <h3 id="">Français</h3>
+                                        </div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                                    </div>
+                                    <div class="row" id="innerRow">
+                                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="englishText">
+                                            <h3 id="">Anglais</h3>
+                                        </div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="fullCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="hollowllCirleIcon"></div>
+                                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="hollowllCirleIcon"></div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                                    </div>                                    
+                                </div>
+                                <!-- <div class="hidden-xs hidden-sm col-md-1 col-lg-1"></div> -->
+                            </div>
+                            
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="carIcon"><img src="./icons/steeringWheel.ico" alt="steering wheel icon"></div>
+                                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="carText">
+                                    <h3 id=""><b>PERMIS DE CONDUIRE</b></h3>
+                                    <h3 id="">Catégories: A | B | C | D | E</h3>
+                                </div>
+                                <!-- <div class="hidden-xs hidden-sm col-md-1 col-lg-1"></div> -->
+                            </div>
+                        </div>
+                </div>
+
+                <!-- ----------------- SKILLS DIV THREE 2 ----------------- -->
+
+                <div id="skillsDivLevel2">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="skillLeft2">
+                        <div class="row" id="innerRow">
+                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" id="skillsIcon1"><img src="./icons/skillsIcon.ico" alt="tools icon"></div>
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10" id="skillLeft2Row1"><h1 id="skillsTitleText1"><b>DOMAINE DE COMPÉTENCES</b></h1></div>
+                        </div>
+
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b>Développement d’application Desktop pour Windows et d’application de gestion</b></h2>
+                            </div>
+                        </div>                        
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText">Plateformes . NET - WinDev 20 - Electron.Js</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b>Développement d’application web et de site internet responsive</b></h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b> -Back-end :</b> Node.js, PHP</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b> -Front-end :</b> HTML5, CSS3, Java Script ECMAScript6, Bootstrap 4.4.1, Angular.Js, React.Js</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b>Prototypage de pages Web</b></h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText">Adobe Fireworks - Adobe XD - Adobe Illustrator - Adobe PhotoShop</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b>Gestion et Administration de Base de Données</b></h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b>SQL :</b> MySQL, <b>NoSQL :</b> MongoDB</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="innerRow">
+                            <div class="hidden-xs col-sm-1 col-md-1 col-lg-1" id=""></div>
+                            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="">
+                                <h2 id="AppDevText"><b>Maitrise du package Office:</b> WORD - EXCELL - POWERPOINT - ACCESS - PUBLISHER</h2>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- ----------------- SKILLS DIV THREE 3 ----------------- -->
+
+                <div id="skillsDivLevel3">
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" id="skillsIcon2"><img src="./icons/briefcaseIcon.ico" alt="briefcase icon"></div>
+                        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10" id="skillLeft3Row1"><h1 id="skillsTitleText2"><b>EXPÉRIENCE PROFESSIONNELLE</b></h1></div>
+                    </div>
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill2Left1">
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="UGVText">
+                                    <h2><b>UGLOBAL VISION SARL</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="UGVTownText">
+                                    <h3>(Abidjan- Côte d'Ivoire)</h3>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="UGVDateText">
+                                    <h3>Juillet - Octobre 2020</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill2Right1">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow"></div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="UGVJobText">
+                                    <h2><b>RESPONSABLE INFORMATIQUE</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill2Left2">
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="DSItext">
+                                    <h2><b>DSI du Ministère de la Fonction Publique</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="DSITownText">
+                                    <h3>(Abidjan- Côte d'Ivoire)</h3>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="DSIDateText">
+                                    <h3>Mai 2019 - Février 2020</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill2Right2">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow"></div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="DSIJobText">
+                                    <h2><b>STAGIAIRE DÉVELOPPEUR WEB</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ----------------- SKILLS DIV THREE 4 ----------------- -->
+
+                <div id="skillsDivLevel4">
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" id="skillsIcon3"><img src="./icons/BookStackIcon.ico" alt="Book Stack icon"></div>
+                        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10" id="skillLeft3Row1"><h1 id="schoolCurriculumTitleText2"><b>CURSUS SCOLAIRE</b></h1></div>
+                    </div>
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Left1">
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="Master2Text">
+                                    <h2><b>MASTER 2 EN INFORMATIQUE, OPTION GÉNIE LOGICIEL</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="Master2YearText">
+                                    <h3>2020</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Right1">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="EDHEGText">
+                                    <h2><b>EDHEG </b>(Abidjan - Côte d'Ivoire)</h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Left2">
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="Licensetext">
+                                    <h2><b>LICENCE PROFESSIONNELLE EN INFORMATIQUE, OPTION GENIE LOGICIEL</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="LicenseYearText">
+                                    <h3>2018</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Right2">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="EDHEGText">
+                                    <h2><b>EDHEG </b>(Abidjan - Côte d'Ivoire)</h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Left3" >
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="DEUG2Text">
+                                    <h2><b>DEUG II EN MATHÉMATIQUES APPLIQUÉES</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="DEUG2YearText">
+                                    <h3>2014</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Right3">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="FSSMText">
+                                    <h2><b>FACULTE DES SCIENCES SEMLALIA DE MARRAKECH </b>(Université cadi ayyad du <b>Maroc</b>)</h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="innerRow">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Left4">
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="baccalaureateText">
+                                    <h2><b>BACCALAUREAT SERIE C (Sciences Mathématiques)</b></h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="baccalaureateYearText">
+                                    <h3>2010</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skill3Right4">
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="LMDText">
+                                    <h2><b>Lycée Moderne de Toumodi</b> <br>(Côte d'Ivoire)</h2>
+                                </div>
+                            </div>
+                            <div class="row" id="innerRow">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12" id="voidRow2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="references"></div>
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/lib/jquery.i18n/jquery.i18n.js"></script>
-    <script src="js/lib/jquery.i18n/jquery.i18n.messagestore.js"></script>
-    <script src="js/lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>
-    <script src="js/lib/jquery.i18n/jquery.i18n.language.js"></script>
-    <script src="js/lib/jquery.i18n/jquery.i18n.parser.js"></script>
-    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.js"></script>
-    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script src="antixss.js" type="text/javascript"></script>
-
-    <script>
-        $( document ).ready(function() {
-            $.i18n().load( {
-                en: {
-                    "welcome": "Welcome.",
-                    "name": "name",
-                    "what_is_your_name": "What is your name?",
-                    "hello": "Hello $1",
-                    "added_to_database": "Hello $1, I've added you to the database!",
-                    "database_contents": "Database contents: "
-                },
-                ja: {
-                    "welcome": "ようこそ。",
-                    "name": "名前",
-                    "what_is_your_name": "お名前を教えてください。",
-                    "hello": "こんにちは $1",
-                    "added_to_database": "こんにちは $1 さん、あなたをデータベースに追加しました。",
-                    "database_contents": "データベースの内容: "
-                }
-            } );
-            $('body').i18n();
-            $('#user_name').attr("placeholder", $.i18n('name') );
-        });
-        </script>
-
-</head>
-
-<body>
-    <div class="container" id="container">
-        <h1 data-i18n="welcome"></h1> <!-- Welcome -->
-        <div id="nameInput" class="input-group-lg center-block helloInput">
-            <p class="lead" data-i18n="what_is_your_name"></p>
-            <input id="user_name" type="text" class="form-control" aria-describedby="sizing-addon1" value="" />
-        </div>
-        <p id="response" class="lead text-center"></p>
-
-        <p id="databaseNames" class="lead text-center"></p>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <span><a href="https://console.bluemix.net/docs/tutorials/index.html" target="_blank">Looking for more tutorials?</a></span>
-        </div>
-    </footer>
-
 </body>
-
-
 </html>
-
-
-<script>
-    	//Submit data when enter key is pressed
-        $('#user_name').keydown(function(e) {
-        	var name = $('#user_name').val();
-            if (e.which == 13 && name.length > 0) { //catch Enter key
-            	//POST request to API to create a new visitor entry in the database
-                $.ajax({
-				  method: "POST",
-				  url: "./api/visitors",
-				  contentType: "application/json",
-				  data: JSON.stringify({name: name })
-				})
-                .done(function(data) {
-                    if(data && data.name){
-                        if(data._id)
-                            $('#response').html($.i18n('added_to_database', AntiXSS.sanitizeInput(data.name)));
-                        else
-                            $('#response').html($.i18n('hello', AntiXSS.sanitizeInput(data.name))); 
-                    }
-                    else {
-                        $('#response').html(AntiXSS.sanitizeInput(data));
-                    }
-                    $('#nameInput').hide();
-                    getNames();
-                });
-            }
-        });
-
-        //Retrieve all the visitors from the database
-        function getNames(){
-          $.get("./api/visitors")
-              .done(function(data) {
-                  if(data.length > 0) {
-                    data.forEach(function(element, index) {
-                      data[index] = AntiXSS.sanitizeInput(element)
-                    });
-                    $('#databaseNames').html($.i18n('database_contents') + JSON.stringify(data));
-                  }
-              });
-          }
-
-          //Call getNames on page load.
-          getNames();
-
-
-    </script>

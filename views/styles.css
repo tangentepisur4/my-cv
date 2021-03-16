@@ -1,19 +1,671 @@
-html {
-  position: relative;
-  min-height: 100%;
+#innerRow{
+  margin: 0;
+  /* background-color: #faebd7; */
 }
-body {
-  margin-bottom: 60px;
+hr{
+  background-color: #fff;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
+#nameCol{
+  padding: 0;
+}
+#nameColleft, #nameColRight{
+  padding: 0;
+}
+#headRow{
+  background-color: #335197;
+  min-height: 315px;
+  color: #fff;
   text-align: center;
-  background-color: #f5f7fa;
+  box-shadow: -5px 5px 9px #b8b3b3;
 }
-.helloInput {
-  width: 300px;
+#nameRow{
+  margin-top: -11px;
 }
+#divPhotoOuter{
+  margin-top:-110px;
+}
+#divPhotoInner{
+  background-color: #6060a3;
+  background-image: url("./photoSANDELohJonathan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 216px;
+  width: 160px;
+  margin: auto;
+  position: relative;
+  /* background-position: center; */
+  box-shadow: 0px 5px 9px #b8b3b3;
+}
+#skillsDivLevel0{
+  min-height: 400px;
+  margin-top: 17px;
+  padding: 0;
+  background-color: #fff;
+}
+#leftColumn{
+  float: left;
+  height: 100%;
+  position: absolute;
+  width: 1%;
+  background-color: #2f3542;
+  box-shadow: -5px 5px 9px #b8b3b3;
+}
+#skillsDivLevel1{
+  float: right;
+  min-height: 400px;
+  width: 98%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: -5px 5px 9px #b8b3b3;
+  padding:0;
+}
+#skillLeft1{
+  /* background-color: #e5e3e4; */
+  /* background-color: #fff; */
+  min-height: 450px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding:0;
+}
+#skillRight1{
+  /* background-color: #e5e3e4; */
+  /* background-color: #fff; */
+  min-height: 450px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding:0;
+}
+#personalDataTextTitle{
+  min-height: 80px;
+  padding: 0;
+  /* background-color: #7fff00; */
+  text-align: center;
+}
+#afterDataTitle1{
+  min-height: 20px;
+  padding: 0;
+  /* background-color: #7fff00; */
+}
+#afterDataTitle2{
+  min-height: 10px;
+  padding: 0;
+  /* background-color: #ff0000; */
+}
+img{
+  height: 50px;
+  /* background-color: #f00; */
+}
+#nameIcon{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #7fff00;  */
+ /*  background-image: url("./icons/nameIcon.ico"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center; */
+}
+#nameIcon img:hover {
+  animation: rotateY 1s infinite;
+}
+@keyframes rotateY{
+  100% {transform: rotateY(360deg);}
+}
+
+@keyframes spin{
+  100% {transform: rotate(360deg);}
+}
+#nameText{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #98e24e; */
+  text-align: left;
+}
+#addressIcon{
+  min-height: 60px;
+  padding: 0;
+  /* background-color: #7fff00; */
+ /* background-image: url("./icons/addressIcon.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right center; */
+}
+#addressIcon img:hover {
+  animation: rotateY2 1s infinite;
+}
+@keyframes rotateY2{
+  100% {transform: rotateY(-360deg);}
+}
+#addressText{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #98e24e; */
+  text-align: left;
+}
+#phoneIcon{
+  min-height: 55px;
+  padding: 0;
+  /* background-color: #7fff00; */
+  /* background-image: url("./icons/phoneIcon.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right center; */
+}
+#phoneIcon img:hover {
+  animation: spin 1s infinite;
+}
+#phoneText{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #98e24e; */
+  text-align: left;
+}
+#eMailIcon{
+  min-height: 55px;
+  padding: 0;
+  /* background-color: #7fff00; */
+  /* background-image: url("./icons/eMailIcon.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right center; */
+}
+#eMailIcon img:hover {
+  animation: rotate3d 1s infinite;
+}
+@keyframes rotate3d{
+  100% {transform: rotate3d(1,3,0, 360deg);}
+}
+#eMailText{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #98e24e; */
+  text-align: left;
+}
+#languageIcon{
+  /* min-height: 50px; */
+  padding: 0;
+  /* background-color: #7fff00; */
+  /* background-image: url("./icons/languageIcon.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom; */
+}
+#languageIcon img:hover {
+  animation: spin2 1s infinite;
+}
+@keyframes spin2{
+  100% {transform: rotate(-360deg);}
+}
+#languageText{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #98e24e; */
+  text-align: left;
+}
+#carIcon{
+  /* min-height: 50px; */
+  padding: 0;
+  /* background-color: #7fff00; */
+  /* background-image: url("./icons/steeringWheel.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center center; */
+}
+#carIcon img:hover {
+  animation: spin 1s infinite;
+}
+#carText{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #98e24e; */
+  text-align: left;
+}
+#fullCirleIcon{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #7fff00; */
+  background-image: url("./icons/circleIcon.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+}
+#hollowllCirleIcon{
+  min-height: 50px;
+  padding: 0;
+  /* background-color: #7fff00; */
+  background-image: url("./icons/circleGrayIcon.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+}
+#englishText, #frenchText{
+  padding: 0;
+}
+#skillsDivLevel2{
+  /* background-color: #07b97e; */
+  float: right;
+  min-height: 400px;
+  width: 98%;
+  /* background-color: #0F0; */
+  background-color: #e5e3e4;
+  border-radius: 5px;
+  box-shadow: -5px 5px 9px #b8b8b3;
+  padding:0;
+  padding-top: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+#skillLeft2{
+  padding: 0;
+  min-height: 500px;
+}
+#skillLeft2Row1{
+  padding: 0;
+  /* background-color: #7676fb; */
+}
+#skillsIcon1{
+  padding: 0;
+}
+#skillsIcon1 img{
+  background-color: #335197;
+  height: 70px;
+  /* padding: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+  background-image: url("./icons/skillsIcon1.ico");*/
+} 
+#skillsTitleText1{
+  text-align: left;
+}
+#AppDevText{
+  text-align: left;
+}
+#skillsDivLevel3{
+  /* background-color: #07b97e; */
+  float: right;
+  min-height: 400px;
+  width: 98%;
+  /* background-color: #0F0; */
+  background-color: #e5e3e4;
+  border-radius: 5px;
+  box-shadow: -5px 5px 9px #b8b8b3;
+  padding:0;
+  padding-top: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+#skillLeft3Row1{
+  padding: 0;
+  /* background-color: #7676fb; */
+}
+#skillRight3{
+  /* background-color: #e5e3e4; */
+  /* background-color: #fff; */
+  min-height: 450px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding:0;
+}
+#skillsIcon2{
+  padding: 0;
+}
+#skillsIcon2 img{
+  background-color: #335197;
+  height: 70px;
+  /* padding: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+  background-image: url("./icons/skillsIcon1.ico");*/
+}
+#skillsTitleText2{
+  text-align: left;
+}
+#skill2Left1, #skill2Right1, #UGVTownText, #UGVDateText{
+  padding: 0;
+}
+#UGVText, #UGVJobText{
+  padding: 0;
+  color: #2f3542 ;
+}
+#skill2Left2, #skill2Right2, #DSITownText, #DSIDateText{
+  padding: 0;
+}
+
+#DSItext, #DSIJobText{
+  padding: 0;
+  color: #2f3542 ;
+}
+#voidRow{
+  min-height: 60px;
+}
+#skillsDivLevel4{
+  /* background-color: #07b97e; */
+  float: right;
+  min-height: 400px;
+  width: 98%;
+  /* background-color: #0F0; */
+  background-color: #e5e3e4;
+  border-radius: 5px;
+  box-shadow: -5px 5px 9px #b8b8b3;
+  padding:0;
+  padding-top: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+#skillsIcon3{
+  padding: 0;
+}
+#skillsIcon3 img{
+  background-color: #335197;
+  height: 70px;
+  /* padding: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+  background-image: url("./icons/skillsIcon1.ico");*/
+}
+#Master2Text{
+  padding: 0;
+  color: #2f3542 ;
+}
+#Master2YearText{
+  padding: 0;
+}
+#schoolCurriculumTitleText2{
+  text-align:left;
+}
+#EDHEGText{
+  padding: 0;
+  color: #2f3542 ;
+}
+#skill3Left2, #skill3Right2, #Licensetext, #LicenseYearText{
+  padding: 0;
+}
+#skill3Left3, #skill3Right3, #DEUG2Text, #DEUG2YearText{
+  padding: 0;
+}
+#skill3Left4, #skill3Right4, #baccalaureateText, #baccalaureateYearText{
+  padding: 0;
+}
+#FSSMText{
+  padding: 0;
+  color: #2f3542 ;
+}
+#LMDText{
+  padding: 0;
+  color: #2f3542 ;
+}
+#voidRow2{
+  min-height: 50px;
+}
+#references{
+  margin: 15px 0;
+  height: 50px;
+  background-color: #34495e;
+  /* border-radius: 5px; */
+  box-shadow: -5px 5px 9px #b8b3b3;
+}
+
+/*========================#==========================
+  =            Bootstrap 3.3.7 Media Queries             =
+  ==================================================*/
+
+  /*==========  Mobile First Method  ==========*/
+  /* ========== ( Screen <= 319px ) */ 
+  @media only screen and (max-width : 319px) {
+    #headRow{
+      background-color: #335197;
+      min-height: 478px;
+      color: #fff;
+      text-align: center;
+      box-shadow: -5px 5px 9px #b8b3b3;
+    }
+    #nameRow{
+      margin-top: -11px;
+    }
+    #divPhotoOuter{
+      margin-top:-110px; 
+    }
+    #divPhotoInner{
+      background-color: #7676fb;
+      background-image: url("./photoSANDELohJonathan.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 216px;
+      width: 160px;
+      margin: auto;
+      position: relative;
+      /* background-position: center; */
+      box-shadow: 0px 5px 9px #b8b3b3;
+    }
+    #Skills{
+      height: 250px;
+      background-color: #e5e3e4;
+      border-radius: 5px;
+      box-shadow: -5px 5px 9px #b8b3b3;
+      margin-top: 17px;
+    }
+    #skillsTitleText1{
+      text-align: center;
+    }
+    #skillsTitleText2{
+      text-align:center;
+    }
+    #schoolCurriculumTitleText2{
+      text-align:center;
+    }
+  }
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+
+  /* Custom, iPhone Retina ( 319px < Screen <= 480px ) */ 
+  @media only screen and (max-width : 480px) and (min-width : 320px) {
+    #headRow{
+      background-color: #335197;
+      min-height: 435px;
+      color: #fff;
+      text-align: center;
+      box-shadow: -5px 5px 9px #b8b3b3;
+    }
+    #nameRow{
+      margin-top: -11px;
+    }
+    #divPhotoOuter{
+      margin-top:-110px; 
+    }
+    #divPhotoInner{
+      background-color: rgb(118, 118, 251);
+      background-image: url("./photoSANDELohJonathan.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 216px;
+      width: 160px;
+      margin: auto;
+      position: relative;
+      /* background-position: center; */
+      box-shadow: 0px 5px 9px #b8b3b3;
+    }
+    #Skills{
+      height: 250px;
+      background-color: #e5e3e4;
+      border-radius: 5px;
+      box-shadow: -5px 5px 9px #b8b3b3;
+      margin-top: 17px;
+    }
+    #skillsTitleText1{
+      text-align: center;
+    }
+    #skillsTitleText2{
+      text-align:center;
+    }
+    #schoolCurriculumTitleText2{
+      text-align:center;
+    }
+  }
+
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+
+  /* Extra Small Devices, Phones ( 480px < Screen <= 768px ) */ 
+  @media only screen and (max-width : 768px) and (min-width : 481px) {
+    #headRow{
+      background-color: #335197;
+      min-height: 380px;
+      color: #fff;
+      text-align: center;
+      box-shadow: -5px 5px 9px #b8b3b3;
+    }
+    #nameRow{
+      margin-top: -11px;
+    }
+    #divPhotoOuter{
+      margin-top:-110px; 
+    }
+    #divPhotoInner{
+      background-color: rgb(118, 118, 251);
+      background-image: url("./photoSANDELohJonathan.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 216px;
+      width: 160px;
+      margin: auto;
+      position: relative;
+      /* background-position: center; */
+      box-shadow: 0px 5px 9px #b8b3b3;
+    }
+    #Skills{
+      height: 250px;
+      background-color: #e5e3e4;
+      border-radius: 5px;
+      box-shadow: -5px 5px 9px #b8b3b3;
+      margin-top: 17px;
+    }
+    #skillsTitleText1{
+      text-align: center;
+    }
+    #skillsTitleText2{
+      text-align:center;
+    }
+    #schoolCurriculumTitleText2{
+      text-align:center;
+    }
+  }
+
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+
+  /* Small Devices, Tablets ( 768px < Screen <= 991px ) */
+  @media only screen and (max-width : 991px) and (min-width : 769px) {
+    #headRow{
+      background-color: #335197;
+      min-height: 340px;
+      color: #fff;
+      text-align: center;
+      box-shadow: -5px 5px 9px #b8b3b3;
+    }
+    #nameRow{
+      margin-top: -11px;
+    }
+    #divPhotoOuter{
+      margin-top:-110px; 
+    }
+    #divPhotoInner{
+      background-color: rgb(118, 118, 251);
+      background-image: url("./photoSANDELohJonathan.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 216px;
+      width: 160px;
+      margin: auto;
+      position: relative;
+      /* background-position: center; */
+      box-shadow: 0px 5px 9px #b8b3b3;
+    }
+    #Skills{
+      height: 250px;
+      background-color: #e5e3e4;
+      border-radius: 5px;
+      box-shadow: -5px 5px 9px #b8b3b3;
+      margin-top: 17px;
+    }
+  }
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+
+  /* Small Devices, Tablets ( Screen == 992px ) */
+  @media only screen and (width : 992px) {
+     
+  }
+
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+/* Small Devices, Tablets ( 992px < Screen <= 1024px ) */
+
+@media only screen and (max-width : 1024px) and (min-width : 993px) {
+  
+  }
+
+/* Medium Devices, Desktops ( 1024px < Screen <= 1600px ) */
+
+/* Small Devices, Tablets ( Screen == 1025px ) */
+
+/* Small Devices, Tablets ( 1026px < Screen <= 1199px ) */
+
+/* Small Devices, Tablets ( 1200px < Screen <= 1224px ) */
+
+/* Small Devices, Tablets ( Screen == 1225px ) */
+
+/* Small Devices, Tablets ( 1226px < Screen <= 1229px ) */
+
+/* Small Devices, Tablets ( Screen == 1230px ) */
+
+/* Small Devices, Tablets ( 1231px < Screen <= 1234px ) */
+
+/* Small Devices, Tablets ( Screen == 1235px ) */
+
+/* Small Devices, Tablets ( 1236px < Screen <= 1234px ) */
+
+
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+
+  /* Medium Devices, Desktops ( 1024px < Screen <= 1199px ) */
+  @media only screen and (max-width : 1199px) and (min-width : 1025px) {
+  }
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+
+  /* Medium Devices, Desktops ( 1199px < Screen <= 1600px ) */
+  @media only screen and (max-width : 1600px) and (min-width : 1200px) {
+      
+  }
+
+/* ====================================================================== */ 
+/* ================================================== */ 
+/* ============================== */ 
+
+  /* Large Devices, Wide Screens ( 1600px < Screen ) */
+  @media only screen and (min-width : 1601px) {
+      
+  }
+
+/* Small Devices, Tablets ( 768px < Screen <= 990px ) 
+  @media only screen and (max-width : 991px) and (min-width : 769px) {
+           
+  };*/
+
+/* Medium Devices, Desktops ( 992px <= Screen < 1200px ) 
+  @media only screen and (max-width : 1199px) and (min-width : 992px) {
+           
+  };*/
