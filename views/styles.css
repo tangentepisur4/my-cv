@@ -412,24 +412,61 @@ img{
   min-height: 50px;
 }
 #footerRow{
+  margin-top: 15px;
   /* margin: 0; */
-  background-color: #ffff00;
-  min-height: 500px;
+  background-color: #335197;
+  box-shadow: -5px 5px 9px #b8b3b3;
 }
-#references{
+#ResumeDiv{
   padding: 0;
-  height: 50px;
+  min-height: 500px;
+  border: solid #f00 1px;
+  /* background-color: #3b91e7; */
+}
+#ResumeDivTitleText{
+  padding: 0;
+  text-align: center;
+  min-height: 50px;
+  background-color: #3b91e7;
+}
+#ResumeDivContentText{
+  padding: 0;
+  text-align: left;
+  min-height: 50px;
+  background-color: #a8d2fb;
+}
+#referencesDiv{
+  padding: 0;
+  min-height: 500px;
+  border: solid #f00 1px;
+  border-right: 0px;
+  border-left: 0px;
   /* background-color: #34495e; */
-  /* border-radius: 5px; */
-  /* box-shadow: -5px 5px 9px #b8b3b3; */
+}
+#sendMessageDiv{
+  padding: 0;
+  min-height: 500px;
+  border: solid #f00 1px;
+  /* background-color: #03284d; */
 }
 #copyrightRow{
-  background-color: #335197;
+  box-shadow: -5px 5px 9px #b8b3b3;
 }
 #copyRightDiv{
+  background-color: #335197;
   text-align: center;
   padding: 0;
   color: #eee;
+  /* border: solid #f00 1px; */
+  margin-top: 1px;
+}
+#copyRightDivBeside{
+  background-color: #335197;
+  text-align: center;
+  padding: 0;
+  color: #335197;
+  /* border: solid #f00 1px; */
+  margin-top: 1px;
 }
 
 /*========================#==========================
