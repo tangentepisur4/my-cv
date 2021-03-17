@@ -183,13 +183,16 @@ img{
   text-align: left;
 }
 #languageIcon{
-  height: 50px;
+  /* min-height: 50px; */
   padding: 0;
   /* background-color: #7fff00; */
   /* background-image: url("./icons/languageIcon.ico");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center bottom; */
+}
+#languageIcon img{
+  min-height: 67px;
 }
 #languageIcon img:hover {
   animation: spin2 1s infinite;
