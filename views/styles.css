@@ -412,9 +412,9 @@ img{
   min-height: 50px;
 }
 #footerRow{
-  margin: 0;
-  background-color: #F00;
-  border: solid #00F 1px;
+  /* margin: 0; */
+  background-color: #ffff00;
+  min-height: 500px;
 }
 #references{
   padding: 0;
@@ -422,6 +422,14 @@ img{
   /* background-color: #34495e; */
   /* border-radius: 5px; */
   /* box-shadow: -5px 5px 9px #b8b3b3; */
+}
+#copyrightRow{
+  background-color: #335197;  
+}
+#copyRightDiv{
+  text-align: center;
+  padding: 0;
+  color: #eee;
 }
 
 /*========================#==========================
