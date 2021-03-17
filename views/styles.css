@@ -424,16 +424,33 @@ img{
   /* background-color: #3b91e7; */
 }
 #ResumeDivTitleText{
+  color: #fff;
   padding: 0;
   text-align: center;
   min-height: 50px;
-  background-color: #3b91e7;
+  /* background-color: #3b91e7; */
 }
 #ResumeDivContentText{
   padding: 0;
+  color: #fff;
   text-align: left;
   min-height: 50px;
-  background-color: #a8d2fb;
+  /* background-color: #a8d2fb; */
+}
+#innerRowPhoneIcon2{
+  margin: 0;
+  margin-top: 30px;
+  /* background-color: #f00; */
+}
+#phoneIcon2{
+  margin-top: 5px;
+  padding: 0;
+}
+#phoneIcon2 img{
+  height: 25px;
+}
+#phoneNumber2{
+  color: #fff;
 }
 #referencesDiv{
   padding: 0;
