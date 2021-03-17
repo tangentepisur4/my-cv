@@ -424,16 +424,10 @@ img{
   /* box-shadow: -5px 5px 9px #b8b3b3; */
 }
 #copyrightRow{
-<<<<<<< HEAD
   background-color: #335197;
 }
 #copyRightDiv{
-=======
-  background-color: #335197;  
-}
-#copyRightDiv{
   text-align: center;
->>>>>>> branchOne
   padding: 0;
   color: #eee;
 }
