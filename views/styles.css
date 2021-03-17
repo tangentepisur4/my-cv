@@ -414,7 +414,8 @@ img{
 #footerRow{
   margin-top: 15px;
   /* margin: 0; */
-  background-color: #335197;
+  /* background-color: #335197; */
+  background-color: #323139;
   box-shadow: -5px 5px 9px #b8b3b3;
 }
 #ResumeDiv{
@@ -424,16 +425,66 @@ img{
   /* background-color: #3b91e7; */
 }
 #ResumeDivTitleText{
+  color: #fff;
   padding: 0;
   text-align: center;
   min-height: 50px;
-  background-color: #3b91e7;
+  /* background-color: #3b91e7; */
 }
 #ResumeDivContentText{
   padding: 0;
+  color: #fff;
   text-align: left;
   min-height: 50px;
-  background-color: #a8d2fb;
+  /* background-color: #a8d2fb; */
+}
+#innerRowPhoneIcon2{
+  margin: 0;
+  padding-top: 20px;
+  /* background-color: #f00; */
+}
+#phoneIcon2{
+  margin-top: 5px;
+  padding: 0;
+}
+#phoneIcon2 img{
+  height: 25px;
+}
+#phoneNumber2{
+  color: #fff;
+}
+#innerRowPhoneIcon2{
+  margin: 0;
+  /* background-color: #f00; */
+}
+#envelopeIcon{
+  /* margin-top: 5px; */
+  padding: 0;
+}
+#envelopeIcon img{
+  height: 35px;
+  margin-left: 6px;
+}
+#emailAddress{
+  color: #fff;
+  margin-left: 10px;
+}
+#innerRowSocialMedia{
+  margin: 0;
+  margin-top: 29px;
+  /* background-color: #f00; */
+}
+#roundedIMG img{
+  padding: 0;
+  border: solid #fff 1px;
+  border-radius: 5px;
+  height: 45px;
+  /* background-color: #ffe4c4; */
+}
+#roundedIMG{
+  padding: 0;
+  /* background-color: #f58a8a; */
+  margin-left: -4px;
 }
 #referencesDiv{
   padding: 0;
@@ -449,11 +500,21 @@ img{
   border: solid #f00 1px;
   /* background-color: #03284d; */
 }
+
+#contactMeTitleText{
+  color: #fff;
+  text-align: center;
+}
+#formUpperRow{
+  height: 15px;
+  margin: 0;
+}
 #copyrightRow{
   box-shadow: -5px 5px 9px #b8b3b3;
 }
 #copyRightDiv{
-  background-color: #335197;
+  background-color: #323139;
+  /* background-color: #335197; */
   text-align: center;
   padding: 0;
   color: #eee;
@@ -461,10 +522,12 @@ img{
   margin-top: 1px;
 }
 #copyRightDivBeside{
-  background-color: #335197;
+  background-color: #323139;
+  /* background-color: #335197; */
   text-align: center;
   padding: 0;
-  color: #335197;
+  color: #323139;
+  /* color: #335197; */
   /* border: solid #f00 1px; */
   margin-top: 1px;
 }
