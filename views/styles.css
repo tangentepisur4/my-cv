@@ -420,8 +420,8 @@ img{
 }
 #ResumeDiv{
   padding: 0;
-  min-height: 500px;
-  border: solid #f00 1px;
+  min-height: 150px;
+  /* border: solid #f00 1px; */
   /* background-color: #3b91e7; */
 }
 #ResumeDivTitleText{
@@ -431,12 +431,18 @@ img{
   min-height: 50px;
   /* background-color: #3b91e7; */
 }
+#ResumeDivTitleText:hover{
+  color: #fff;
+}
 #ResumeDivContentText{
   padding: 0;
-  color: #fff;
+  color: #eee;
   text-align: left;
   min-height: 50px;
   /* background-color: #a8d2fb; */
+}
+#ResumeDivContentText:hover{
+  color: #fff;
 }
 #innerRowPhoneIcon2{
   margin: 0;
@@ -451,6 +457,9 @@ img{
   height: 25px;
 }
 #phoneNumber2{
+  color: #eee;
+}
+#phoneNumber2:hover{
   color: #fff;
 }
 #innerRowPhoneIcon2{
@@ -466,13 +475,20 @@ img{
   margin-left: 6px;
 }
 #emailAddress{
-  color: #fff;
+  color: #eee;
   margin-left: 10px;
+}
+#emailAddress:hover{
+  color: #fff;
+  font-weight: lighter;
 }
 #innerRowSocialMedia{
   margin: 0;
   margin-top: 29px;
   /* background-color: #f00; */
+}
+#innerRowSocialMedia2{
+  margin-top: 20px;
 }
 #roundedIMG img{
   padding: 0;
@@ -488,26 +504,62 @@ img{
 }
 #referencesDiv{
   padding: 0;
-  min-height: 500px;
-  border: solid #f00 1px;
+  min-height: 150px;
+  /* border: solid #f00 1px; */
   border-right: 0px;
   border-left: 0px;
   /* background-color: #34495e; */
 }
+#referencesTitleText{
+  padding: 0;
+  text-align: center;
+  color: #fff;
+}
+#referencesLiText{
+  font-size: 13pt;
+  padding: 0;
+  text-align: left;
+  color: #eee;
+}
+#referencesLiText:hover{
+  color: #fff;
+  font-size: 13.1pt ;
+
+}
 #sendMessageDiv{
   padding: 0;
-  min-height: 500px;
-  border: solid #f00 1px;
+  min-height: 150px;
+  /* border: solid #f00 1px; */
   /* background-color: #03284d; */
 }
-
 #contactMeTitleText{
+  padding: 0;
   color: #fff;
   text-align: center;
 }
 #formUpperRow{
   height: 15px;
   margin: 0;
+}
+/* #sendButton{
+  background-color: #335197;
+  border: solid #335197;
+} */
+#formInputsDiv{
+  padding: 0;
+}
+#forminnerRowMessage, #formRowSendButton{
+  margin: 0;
+  margin-top: 1px;
+}
+#msg, #fromEmail{
+  background-color: #323139;
+  border: solid #fff 1px;
+  color: #fff;
+  /* font-size: 15px; */
+}
+#msg:hover, #fromEmail:hover{
+  background-color: #3d3c46;
 }
 #copyrightRow{
   box-shadow: -5px 5px 9px #b8b3b3;
