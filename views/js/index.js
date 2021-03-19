@@ -1,11 +1,11 @@
+// function eraseValues(){
+//     document.getElementById("fromEmail").value = "";
+//     document.getElementById("msg").value = "";
+// }
 function pushFunction(){
     alertify.alert('Votre message a bien été envoyé !');
 }
-function eraseValues(){
-    document.getElementById("fromEmail").nodeValue = "test";
-    document.getElementById("msg").nodeValue = "test";
-}
-function sendMail (){
+function sendMail(){
     var tempParams = {
         to_name: document.getElementById("toName").value,
         from_name: document.getElementById("fromEmail").value,
@@ -16,11 +16,18 @@ function sendMail (){
         console.log("success",res.status);
     })
 }
-
+function redirection(){
+    setTimeout( function(){
+            document.location.href="../index.html";
+        }
+    , 3000
+    );
+}
 document.getElementById("message").addEventListener("submit", function(e) {
+    e.preventDefault();
     sendMail();
     pushFunction();
-    // eraseValues();
-    e.preventDefault();
+    redirection();
     // alert("Votre message a bien été envoyé !");
+    // eraseValues();
   });
