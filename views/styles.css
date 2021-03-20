@@ -446,7 +446,7 @@ img{
 }
 #innerRowPhoneIcon2{
   margin: 0;
-  padding-top: 20px;
+  padding-top: 5px;
   /* background-color: #f00; */
 }
 #phoneIcon2{
@@ -524,7 +524,21 @@ img{
 #referencesLiText:hover{
   color: #fff;
   font-size: 13.1pt ;
-
+}
+#countValueDiv{
+  padding: 0;
+  color: #fff;
+  text-align: left;
+}
+#count, #countPlus{
+  color: #8da9f5;
+}
+#counterText:hover{
+  cursor:pointer;
+}
+#count:hover, #countPlus:hover{
+  color: #fff;
+  font-style: italic;
 }
 #sendMessageDiv{
   padding: 0;
