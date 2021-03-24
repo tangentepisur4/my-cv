@@ -283,12 +283,36 @@ img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center bottom;
-  background-image: url("./icons/skillsIcon1.ico");*/
-} 
+  background-image: url("./icons/skillsIcon2.ico");*/
+}
 #skillsTitleText1{
   text-align: left;
 }
-#AppDevText{
+#UGVRow1DateAndTitle{
+  padding: 0;
+  text-align: left;
+}
+#UGVRow1Content{
+  padding: 0;
+  text-align: left;
+}
+#UGVRow1Content ul{
+  list-style: square;
+}
+#UGVRow2DateAndTitle{
+padding: 0;
+text-align: left;
+}
+#UGVRow2Content{
+  padding: 0;
+  text-align: left;
+}
+#UGVRow3DateAndTitle ul{
+  padding: 0;
+  text-align: left;
+}
+#UGVRow3Content{
+  padding: 0;
   text-align: left;
 }
 #skillsDivLevel3{
@@ -305,6 +329,28 @@ img{
   margin-top: 15px;
   text-align: center;
 }
+#skillLeft3{
+  padding: 0;
+  min-height: 500px;
+}
+#skillsIcon2{
+  padding: 0;
+}
+#skillsIcon2 img{
+  background-color: #335197;
+  height: 70px;
+  /* padding: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+  background-image: url("./icons/skillsIcon2.ico");*/
+} 
+#skillsTitleText2{
+  text-align: left;
+}
+#AppDevText{
+  text-align: left;
+}
 #skillLeft3Row1{
   padding: 0;
   /* background-color: #7676fb; */
@@ -318,9 +364,6 @@ img{
   border-bottom-right-radius: 5px;
   padding:0;
 }
-#skillsIcon2{
-  padding: 0;
-}
 #skillsIcon2 img{
   background-color: #335197;
   height: 70px;
@@ -328,28 +371,7 @@ img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center bottom;
-  background-image: url("./icons/skillsIcon1.ico");*/
-}
-#skillsTitleText2{
-  text-align: left;
-}
-#skill2Left1, #skill2Right1, #UGVTownText, #UGVDateText{
-  padding: 0;
-}
-#UGVText, #UGVJobText{
-  padding: 0;
-  color: #2f3542 ;
-}
-#skill2Left2, #skill2Right2, #DSITownText, #DSIDateText{
-  padding: 0;
-}
-
-#DSItext, #DSIJobText{
-  padding: 0;
-  color: #2f3542 ;
-}
-#voidRow{
-  min-height: 60px;
+  background-image: url("./icons/skillsIcon2.ico");*/
 }
 #skillsDivLevel4{
   /* background-color: #07b97e; */
@@ -375,7 +397,7 @@ img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center bottom;
-  background-image: url("./icons/skillsIcon1.ico");*/
+  background-image: url("./icons/skillsIcon2.ico");*/
 }
 #Master2Text{
   padding: 0;
