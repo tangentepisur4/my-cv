@@ -251,6 +251,7 @@ img{
 #englishLevelDiv, #frenchLevelDiv{
   padding-top: 15px;
 }
+/*////////////////////////////////////////////*/
 #skillsDivLevel2{
   /* background-color: #07b97e; */
   float: right;
@@ -264,32 +265,6 @@ img{
   padding-top: 15px;
   margin-top: 15px;
   text-align: center;
-}
-#skillLeft2{
-  padding: 0;
-  min-height: 500px;
-}
-#skillLeft2Row1{
-  padding: 0;
-  /* background-color: #7676fb; */
-}
-#skillsIcon1{
-  padding: 0;
-}
-#skillsIcon1 img{
-  background-color: #335197;
-  height: 70px;
-  /* padding: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center bottom;
-  background-image: url("./icons/skillsIcon1.ico");*/
-} 
-#skillsTitleText1{
-  text-align: left;
-}
-#AppDevText{
-  text-align: left;
 }
 #skillsDivLevel3{
   /* background-color: #07b97e; */
@@ -305,6 +280,41 @@ img{
   margin-top: 15px;
   text-align: center;
 }
+/*////////////////////////////////////////*/
+#skillLeft2{
+  padding: 0;
+  min-height: 500px;
+}
+#skillLeft3{
+  padding: 0;
+  min-height: 500px;
+}
+/*////////////////////////////////////////*/
+#skillLeft2Row1{
+  padding: 0;
+  /* background-color: #7676fb; */
+}
+
+#skillsIcon2{
+  padding: 0;
+}
+#skillsIcon2 img{
+  background-color: #335197;
+  height: 70px;
+  /* padding: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+  background-image: url("./icons/skillsIcon2.ico");*/
+} 
+#skillsTitleText2{
+  text-align: left;
+}
+#AppDevText{
+  text-align: left;
+}
+
+
 #skillLeft3Row1{
   padding: 0;
   /* background-color: #7676fb; */
@@ -318,8 +328,15 @@ img{
   border-bottom-right-radius: 5px;
   padding:0;
 }
-#skillsIcon2{
-  padding: 0;
+/*//////////////////////////////////////////////*/
+#skillsIcon1 img{
+  background-color: #335197;
+  height: 70px;
+  /* padding: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center bottom;
+  background-image: url("./icons/skillsIcon2.ico");*/
 }
 #skillsIcon2 img{
   background-color: #335197;
@@ -328,29 +345,14 @@ img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center bottom;
-  background-image: url("./icons/skillsIcon1.ico");*/
-}
-#skillsTitleText2{
-  text-align: left;
-}
-#skill2Left1, #skill2Right1, #UGVTownText, #UGVDateText{
-  padding: 0;
-}
-#UGVText, #UGVJobText{
-  padding: 0;
-  color: #2f3542 ;
-}
-#skill2Left2, #skill2Right2, #DSITownText, #DSIDateText{
-  padding: 0;
+  background-image: url("./icons/skillsIcon2.ico");*/
 }
 
-#DSItext, #DSIJobText{
-  padding: 0;
-  color: #2f3542 ;
-}
-#voidRow{
-  min-height: 60px;
-}
+
+
+
+
+
 #skillsDivLevel4{
   /* background-color: #07b97e; */
   float: right;
@@ -365,6 +367,10 @@ img{
   margin-top: 15px;
   text-align: center;
 }
+/*//////////////////////////////////////*/
+#skillsIcon1{
+  padding: 0;
+}
 #skillsIcon3{
   padding: 0;
 }
@@ -375,7 +381,7 @@ img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center bottom;
-  background-image: url("./icons/skillsIcon1.ico");*/
+  background-image: url("./icons/skillsIcon2.ico");*/
 }
 #Master2Text{
   padding: 0;
@@ -637,7 +643,7 @@ img{
       box-shadow: -5px 5px 9px #b8b3b3;
       margin-top: 17px;
     }
-    #skillsTitleText1{
+    #skillsTitleText2{
       text-align: center;
     }
     #skillsTitleText2{
@@ -689,7 +695,7 @@ img{
       box-shadow: -5px 5px 9px #b8b3b3;
       margin-top: 17px;
     }
-    #skillsTitleText1{
+    #skillsTitleText2{
       text-align: center;
     }
     #skillsTitleText2{
@@ -742,7 +748,7 @@ img{
       box-shadow: -5px 5px 9px #b8b3b3;
       margin-top: 17px;
     }
-    #skillsTitleText1{
+    #skillsTitleText2{
       text-align: center;
     }
     #skillsTitleText2{
