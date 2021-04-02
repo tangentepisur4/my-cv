@@ -251,7 +251,6 @@ img{
 #englishLevelDiv, #frenchLevelDiv{
   padding-top: 15px;
 }
-/*////////////////////////////////////////////*/
 #skillsDivLevel2{
   /* background-color: #07b97e; */
   float: right;
@@ -280,7 +279,6 @@ img{
   margin-top: 15px;
   text-align: center;
 }
-/*////////////////////////////////////////*/
 #skillLeft2{
   padding: 0;
   min-height: 500px;
@@ -289,7 +287,6 @@ img{
   padding: 0;
   min-height: 500px;
 }
-/*////////////////////////////////////////*/
 #skillLeft2Row1{
   padding: 0;
   /* background-color: #7676fb; */
@@ -325,7 +322,7 @@ img{
 padding: 0;
 text-align: left;
 }
-#UGVRow2Content{
+#UGVRow2Content, #UGVRow3DateAndTitle{
   padding: 0;
   text-align: left;
 }
@@ -409,7 +406,6 @@ text-align: left;
   margin-top: 15px;
   text-align: center;
 }
-/*//////////////////////////////////////*/
 #skillsIcon1{
   padding: 0;
 }
@@ -436,10 +432,21 @@ text-align: left;
 }
 #Master2Text{
   padding: 0;
-  color: #2f3542 ;
+  color: #2f3542;
 }
-#Master2YearText{
+#Master2Town{
   padding: 0;
+}
+#skill3Left1{
+  padding: 0;
+  text-align: left;
+}
+#topSkillsRow{
+  min-height:35px;
+}
+#bottomSkillsRow{
+  min-height:30px;
+  /* background-color: #00f; */
 }
 #schoolCurriculumTitleText2{
   text-align:left;
@@ -707,6 +714,9 @@ text-align: left;
       padding-top:0;
       margin-top: -20px;
     }
+    #skill3Left1{
+      text-align: center;
+    }
   }
 /* ====================================================================== */ 
 /* ================================================== */ 
@@ -759,6 +769,9 @@ text-align: left;
       padding-top:0;
       margin-top: -10px;
     }
+    #skill3Left1{
+      text-align: center;
+    }
   }
 
 /* ====================================================================== */ 
@@ -808,6 +821,9 @@ text-align: left;
     #schoolCurriculumTitleText2{
       text-align:center;
     }
+    #skill3Left1{
+      text-align: center;
+    }
   }
 
 /* ====================================================================== */ 
@@ -847,6 +863,9 @@ text-align: left;
       border-radius: 5px;
       box-shadow: -5px 5px 9px #b8b3b3;
       margin-top: 17px;
+    }
+    #skill3Left1{
+      text-align: center;
     }
   }
 /* ====================================================================== */ 
