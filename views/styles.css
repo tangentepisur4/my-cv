@@ -437,6 +437,34 @@ text-align: left;
 #Master2Town{
   padding: 0;
 }
+#Master1Text{
+  padding: 0;
+  color: #2f3542;
+}
+#Master1Town{
+  padding: 0;
+}
+#LisenceText{
+  padding: 0;
+  color: #2f3542;
+}
+#LisenceTown{
+  padding: 0;
+}
+#DEUG2Text{
+  padding: 0;
+  color: #2f3542;
+}
+#DEUG2Town{
+  padding: 0;
+}
+#highSchoolDegreeText{
+  padding: 0;
+  color: #2f3542;
+}
+#highSchoolDegreeTown{
+  padding: 0;
+}
 #skill3Left1{
   padding: 0;
   text-align: left;
@@ -450,30 +478,6 @@ text-align: left;
 }
 #schoolCurriculumTitleText2{
   text-align:left;
-}
-#EDHEGText{
-  padding: 0;
-  color: #2f3542 ;
-}
-#skill3Left2, #skill3Right2, #Licensetext, #LicenseYearText{
-  padding: 0;
-}
-#skill3Left3, #skill3Right3, #DEUG2Text, #DEUG2YearText{
-  padding: 0;
-}
-#skill3Left4, #skill3Right4, #baccalaureateText, #baccalaureateYearText{
-  padding: 0;
-}
-#FSSMText{
-  padding: 0;
-  color: #2f3542 ;
-}
-#LMDText{
-  padding: 0;
-  color: #2f3542 ;
-}
-#voidRow2{
-  min-height: 50px;
 }
 #footerRow{
   margin-top: 15px;
