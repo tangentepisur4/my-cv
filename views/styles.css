@@ -315,6 +315,9 @@ img{
   padding: 0;
   text-align: left;
 }
+#linkKendaAfrique{
+  color: #35363a;
+}
 #UGVRow1Content ul{
   list-style: square;
 }
@@ -325,6 +328,9 @@ text-align: left;
 #UGVRow2Content, #UGVRow3DateAndTitle{
   padding: 0;
   text-align: left;
+}
+#linkUGV{
+  color: #35363a;
 }
 #UGVRow3DateAndTitle ul{
   padding: 0;
