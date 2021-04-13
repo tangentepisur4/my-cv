@@ -15,7 +15,7 @@ function countViews(){
 
 }
 window.onload = () =>{
-    countViews();
+    // countViews();
 }
 function pushFunction(){
     alertify.alert('Votre message a bien été envoyé !');
