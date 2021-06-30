@@ -6,28 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv-sande-loh-jonathan</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet"> 
+    <link href="./css/index.css" rel="stylesheet"> 
     <link href="./css/bootstrap.min.css" rel="stylesheet"> 
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
 </head>
-<body id="choosVersionBody">
-    <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
-    <div class="col-xs-8 col-sm-6 col-md-4 col-lg-4" id="chooseVersion">
-        <form action="">
-           <div class="row">
-            <div class="form-group">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="englishButtonDiv">
-                    <button class="form-control btn-primary" id="english"> ENGLISH VERSION </button>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="frenchButtonDiv">
-                    <button class="form-control btn-info" id="french">VERSION FRANÇAISE</button>
+<body>
+    <div class="container-fluid" id="choosVersionContainer">
+        <div class="hidden-xs col-sm-3 col-md-4 col-lg-3"></div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6" id="chooseVersion">
+            <form action="">
+            <div class="row">
+                <div id="centeredImage" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img class="img-responsive" id="centeredImageTag" src="./photoSANDELohJonathanAccueil.png" alt="WelcomeImage">
                 </div>
             </div>
-           </div>
-        </form>
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="englishButtonDiv">
+                        <button class="form-control btn-primary" id="english"> ENGLISH VERSION </button>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="frenchButtonDiv">
+                        <button class="form-control btn-info" id="french">VERSION FRANÇAISE</button>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-4 col-lg-3"></div>
+            <script src="./js/index.js"></script>
     </div>
-    <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
-        <script src="./js/index.js"></script>
 </body>
 </html>

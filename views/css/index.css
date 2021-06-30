@@ -1,0 +1,205 @@
+#choosVersionContainer{
+      background-color:#d0f1fb;
+      min-height: 100vh;
+    }    
+    #centeredImageTag{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff;
+      border-radius: 50%;
+      width: 55%; 
+      margin-bottom: 10px;
+}
+/* #centeredImage{
+      background-image:url("../photoSANDELohJonathanAccueil.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #fff;
+      min-height: 150px;
+      border-radius: 50%; 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+} */
+    #english, #french{
+      min-height: 80px;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    #chooseVersion{
+      margin-top: 10px;
+    }
+
+   
+      
+      /*========================#==========================
+        =            Bootstrap 3.3.7 Media Queries             =
+        ==================================================*/
+      
+        /*==========  Mobile First Method  ==========*/
+        /* ========== ( Screen <= 319px ) */ 
+        @media only screen and (max-width : 319px) {
+          #englishButtonDiv, #frenchButtonDiv{
+            margin: 5px 0;
+          }
+          #centeredImageTag{
+            width: 100%; 
+            }
+        #english, #french{
+            min-height: 80px;
+            font-size: 100%;
+            }
+        }
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      
+        /* Custom, iPhone Retina ( 319px < Screen <= 480px ) */ 
+        @media only screen and (max-width : 480px) and (min-width : 320px) {
+          #englishButtonDiv, #frenchButtonDiv{
+            margin: 5px 0;
+          }          
+          #englishLevelDiv, #frenchLevelDiv{
+            padding-top:0;
+            margin-top: -10px;
+          }
+          #centeredImageTag{
+            width: 75%; 
+            }
+            #english, #french{
+                min-height: 80px;
+                font-size: 20px;
+                }
+        }
+      
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      
+        /* Extra Small Devices, Phones ( 480px < Screen <= 768px ) */ 
+        @media only screen and (max-width : 768px) and (min-width : 481px) {
+          #englishButtonDiv, #frenchButtonDiv{
+            margin: 5px 0;
+          }
+          #centeredImageTag{
+            width: 75%; 
+            }
+        }
+      
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      
+        /* Small Devices, Tablets ( 768px < Screen <= 991px ) */
+        @media only screen and (max-width : 991px) and (min-width : 769px) {
+          #englishButtonDiv, #frenchButtonDiv{
+            margin: 5px 0;
+          }
+          #centeredImageTag{
+            width: 75%; 
+            }
+        }
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      
+        /* Small Devices, Tablets ( Screen == 992px ) */
+        @media only screen and (width : 992px) {
+          #englishButtonDiv, #frenchButtonDiv{
+            margin: 5px 0;
+          }
+          #centeredImageTag{
+            width: 100%; 
+            }
+        }
+      
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      /* Small Devices, Tablets ( 992px < Screen <= 1024px ) */
+      
+      @media only screen and (max-width : 1024px) and (min-width : 993px) {
+        #englishButtonDiv, #frenchButtonDiv{
+          margin: 5px 0;
+        }
+        #centeredImageTag{
+            width: 100%; 
+            }
+        }
+      
+      /* Medium Devices, Desktops ( 1024px < Screen <= 1600px ) */
+      
+      /* Small Devices, Tablets ( Screen == 1025px ) */
+      
+      /* Small Devices, Tablets ( 1026px < Screen <= 1199px ) */
+      
+      /* Small Devices, Tablets ( 1200px < Screen <= 1224px ) */
+      
+      /* Small Devices, Tablets ( Screen == 1225px ) */
+      
+      /* Small Devices, Tablets ( 1226px < Screen <= 1229px ) */
+      
+      /* Small Devices, Tablets ( Screen == 1230px ) */
+      
+      /* Small Devices, Tablets ( 1231px < Screen <= 1234px ) */
+      
+      /* Small Devices, Tablets ( Screen == 1235px ) */
+      
+      /* Small Devices, Tablets ( 1236px < Screen <= 1234px ) */
+      
+      
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      
+        /* Medium Devices, Desktops ( 1024px < Screen <= 1199px ) */
+        @media only screen and (max-width : 1199px) and (min-width : 1025px) {
+          #englishButtonDiv, #frenchButtonDiv{
+            margin: 5px 0;
+          }
+          #centeredImageTag{
+            width: 100%; 
+            }
+        }
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      
+        /* Medium Devices, Desktops ( 1199px < Screen <= 1600px ) */
+        @media only screen and (max-width : 1600px) and (min-width : 1200px) {
+            #english, #french{
+                min-height: 100px;
+                font-size: 30px;
+                }
+            #centeredImageTag{
+                width: 65%; 
+                }
+        }
+      
+      /* ====================================================================== */ 
+      /* ================================================== */ 
+      /* ============================== */ 
+      
+        /* Large Devices, Wide Screens ( 1600px < Screen ) */
+        @media only screen and (min-width : 1601px) {
+            #english, #french{
+                min-height: 150px;
+                font-size: 40px;
+                }
+            #centeredImageTag{
+                width: 95%; 
+                }
+        }
+      
+      /* Small Devices, Tablets ( 768px < Screen <= 990px ) 
+        @media only screen and (max-width : 991px) and (min-width : 769px) {
+                 
+        };*/
+      
+      /* Medium Devices, Desktops ( 992px <= Screen < 1200px ) 
+        @media only screen and (max-width : 1199px) and (min-width : 992px) {
+                 
+        };*/
+      
