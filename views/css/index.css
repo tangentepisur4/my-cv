@@ -1,15 +1,16 @@
 #choosVersionContainer{
-      background-color:#a8e7fa;
+    background: linear-gradient(180deg, rgba(228,255,253,1) 0%, rgba(188,249,239,1) 97%, rgba(142,228,245,1) 100%);
+    /* background-color:#91e2fa; */
       min-height: 100vh;
     }    
     #centeredImageTag{
       display: block;
-      max-height:250px;
       margin-left: auto;
       margin-right: auto;
-      max-width:250px;
-      background-color: rgba(255, 255, 255, 1);
-      border-radius: 50%;  
+      background-color: #fff;
+      border-radius: 50%;
+      width: 55%; 
+      margin-bottom: 10px;
 }
 /* #centeredImage{
       background-image:url("../photoSANDELohJonathanAccueil.png");
@@ -26,6 +27,7 @@
     #english, #french{
       min-height: 80px;
       font-size: 20px;
+      margin-bottom: 10px;
     }
     #chooseVersion{
       margin-top: 10px;
@@ -43,6 +45,13 @@
           #englishButtonDiv, #frenchButtonDiv{
             margin: 5px 0;
           }
+          #centeredImageTag{
+            width: 100%; 
+            }
+        #english, #french{
+            min-height: 80px;
+            font-size: 100%;
+            }
         }
       /* ====================================================================== */ 
       /* ================================================== */ 
@@ -57,6 +66,13 @@
             padding-top:0;
             margin-top: -10px;
           }
+          #centeredImageTag{
+            width: 75%; 
+            }
+            #english, #french{
+                min-height: 80px;
+                font-size: 20px;
+                }
         }
       
       /* ====================================================================== */ 
@@ -67,7 +83,10 @@
         @media only screen and (max-width : 768px) and (min-width : 481px) {
           #englishButtonDiv, #frenchButtonDiv{
             margin: 5px 0;
-          }          
+          }
+          #centeredImageTag{
+            width: 75%; 
+            }
         }
       
       /* ====================================================================== */ 
@@ -78,7 +97,10 @@
         @media only screen and (max-width : 991px) and (min-width : 769px) {
           #englishButtonDiv, #frenchButtonDiv{
             margin: 5px 0;
-          }          
+          }
+          #centeredImageTag{
+            width: 75%; 
+            }
         }
       /* ====================================================================== */ 
       /* ================================================== */ 
@@ -89,6 +111,9 @@
           #englishButtonDiv, #frenchButtonDiv{
             margin: 5px 0;
           }
+          #centeredImageTag{
+            width: 100%; 
+            }
         }
       
       /* ====================================================================== */ 
@@ -99,7 +124,10 @@
       @media only screen and (max-width : 1024px) and (min-width : 993px) {
         #englishButtonDiv, #frenchButtonDiv{
           margin: 5px 0;
-        }        
+        }
+        #centeredImageTag{
+            width: 100%; 
+            }
         }
       
       /* Medium Devices, Desktops ( 1024px < Screen <= 1600px ) */
@@ -132,6 +160,9 @@
           #englishButtonDiv, #frenchButtonDiv{
             margin: 5px 0;
           }
+          #centeredImageTag{
+            width: 100%; 
+            }
         }
       /* ====================================================================== */ 
       /* ================================================== */ 
@@ -139,7 +170,13 @@
       
         /* Medium Devices, Desktops ( 1199px < Screen <= 1600px ) */
         @media only screen and (max-width : 1600px) and (min-width : 1200px) {
-            
+            #english, #french{
+                min-height: 100px;
+                font-size: 30px;
+                }
+            #centeredImageTag{
+                width: 65%; 
+                }
         }
       
       /* ====================================================================== */ 
@@ -148,7 +185,13 @@
       
         /* Large Devices, Wide Screens ( 1600px < Screen ) */
         @media only screen and (min-width : 1601px) {
-            
+            #english, #french{
+                min-height: 150px;
+                font-size: 40px;
+                }
+            #centeredImageTag{
+                width: 95%; 
+                }
         }
       
       /* Small Devices, Tablets ( 768px < Screen <= 990px ) 
