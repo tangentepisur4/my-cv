@@ -1,17 +1,3 @@
-#choosVersionBody{
-background-color:#000;
-  background-image:url("./firstPageBackground.jpg");
-  background-size: cover;
-  /* background-repeat: no-repeat; */
-  /* background-blend-mode:luminosity; */
-}
-#english, #french{
-  min-height: 80px;
-  font-size: 20px;
-}
-#chooseVersion{
-  margin-top: 300px;
-}
 #innerRow{
   margin: 0;
   /* background-color: #faebd7; */
