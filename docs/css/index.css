@@ -1,16 +1,27 @@
 #choosVersionContainer{
-    background: linear-gradient(180deg, rgba(228,255,253,1) 0%, rgba(188,249,239,1) 97%, rgba(142,228,245,1) 100%);
-    /* background-color:#91e2fa; */
-      min-height: 100vh;
-    }    
-    #centeredImageTag{
+    background: linear-gradient(135deg, #0f172a 0%, #132238 52%, #f8fafc 52%, #eef6fb 100%);
+    min-height: 100vh;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+#chooseVersion{
+      margin-top: 10px;
+      padding: 24px;
+      background-color: rgba(255, 255, 255, 0.94);
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.16);
+}
+#centeredImageTag{
       display: block;
       margin-left: auto;
       margin-right: auto;
       background-color: #fff;
+      border: 6px solid #ffffff;
       border-radius: 50%;
-      width: 55%; 
-      margin-bottom: 10px;
+      width: 55%;
+      margin-bottom: 18px;
+      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.22);
 }
 /* #centeredImage{
       background-image:url("../photoSANDELohJonathanAccueil-v2.png");
@@ -25,12 +36,34 @@
       width: 50%;
 } */
     #english, #french{
-      min-height: 80px;
-      font-size: 20px;
+      min-height: 72px;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
       margin-bottom: 10px;
+      border: 0;
+      border-radius: 6px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.16);
+      transition: background-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
     }
-    #chooseVersion{
-      margin-top: 10px;
+    #english{
+      background-color: #2563eb;
+      color: #ffffff;
+    }
+    #french{
+      background-color: #0f172a;
+      color: #ffffff;
+    }
+    #english:hover, #english:focus,
+    #french:hover, #french:focus{
+      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.2);
+      transform: translateY(-1px);
+    }
+    #english:hover, #english:focus{
+      background-color: #1d4ed8;
+    }
+    #french:hover, #french:focus{
+      background-color: #06b6d4;
     }
 
    
