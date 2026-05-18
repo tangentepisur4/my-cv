@@ -1,0 +1,9 @@
+node_modules/
+.env
+vcap-local.json
+npm-debug.log*
+Thumbs.db
+.DS_Store
+cv_responsive/
+package.json
+package-lock.json
