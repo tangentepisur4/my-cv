@@ -5,5 +5,3 @@ npm-debug.log*
 Thumbs.db
 .DS_Store
 cv_responsive/
-package.json
-package-lock.json
