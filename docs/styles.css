@@ -1,9 +1,14 @@
+body {
+  background: linear-gradient(180deg, #f8fafc 0%, #eef6ff 46%, #f9fafb 100%);
+  color: #1f2937;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 #innerRow{
   margin: 0;
   /* background-color: #faebd7; */
 }
 hr{
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.55);
 }
 #nameCol{
   padding: 0;
@@ -12,11 +17,11 @@ hr{
   padding: 0;
 }
 #headRow{
-  background-color: #335197;
+  background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
   min-height: 315px;
   color: #fff;
   text-align: center;
-  box-shadow: -5px 5px 9px #b8b3b3;
+  box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
 }
 #nameRow{
   margin-top: -11px;
@@ -25,7 +30,7 @@ hr{
   margin-top:-110px;
 }
 #divPhotoInner{
-  background-color: #6060a3;
+  background-color: #ffffff;
   background-image: url("./photoSANDELohJonathan-v3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,29 +39,31 @@ hr{
   margin: auto;
   position: relative;
   /* background-position: center; */
-  box-shadow: 0px 5px 9px #b8b3b3;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
 }
 #skillsDivLevel0{
   min-height: 400px;
   margin-top: 17px;
   padding: 0;
-  background-color: #fff;
+  background-color: transparent;
 }
 #leftColumn{
   float: left;
   height: 100%;
   position: absolute;
   width: 1%;
-  background-color: #2f3542;
-  box-shadow: -5px 5px 9px #b8b3b3;
+  background: linear-gradient(180deg, #1d4ed8 0%, #0891b2 100%);
+  box-shadow: none;
 }
 #skillsDivLevel1{
   float: right;
   min-height: 400px;
   width: 98%;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: -5px 5px 9px #b8b3b3;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.08);
   padding:0;
 }
 #skillLeft1{
@@ -258,9 +265,11 @@ img{
   min-height: 400px;
   width: 98%;
   /* background-color: #0F0; */
-  background-color: #e5e3e4;
-  border-radius: 5px;
-  box-shadow: -5px 5px 9px #b8b8b3;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #0891b2;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
   padding:0;
   padding-top: 15px;
   margin-top: 15px;
@@ -272,9 +281,11 @@ img{
   min-height: 400px;
   width: 98%;
   /* background-color: #0F0; */
-  background-color: #e5e3e4;
-  border-radius: 5px;
-  box-shadow: -5px 5px 9px #b8b8b3;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #2563eb;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
   padding:0;
   padding-top: 15px;
   margin-top: 15px;
@@ -297,7 +308,7 @@ img{
   padding: 0;
 }
 #skillsIcon2 img{
-  background-color: #335197;
+  background-color: #0f766e;
   height: 70px;
   /* padding: 0;
   background-repeat: no-repeat;
@@ -307,6 +318,7 @@ img{
 }
 #skillsTitleText1{
   text-align: left;
+  color: #0f172a;
 }
 #UGVRow1DateAndTitle{
   padding: 0;
@@ -317,7 +329,10 @@ img{
   text-align: left;
 }
 #linkKendaAfrique{
-  color: #35363a;
+  color: #2563eb;
+}
+#linkKendaAfrique:hover{
+  color: #1d4ed8;
 }
 #UGVRow1Content ul{
   list-style: square;
@@ -331,7 +346,16 @@ text-align: left;
   text-align: left;
 }
 #linkUGV{
-  color: #35363a;
+  color: #2563eb;
+}
+#linkUGV:hover{
+  color: #1d4ed8;
+}
+.companyLink{
+  color: #2563eb;
+}
+.companyLink:hover{
+  color: #1d4ed8;
 }
 #UGVRow3DateAndTitle ul{
   padding: 0;
@@ -347,9 +371,11 @@ text-align: left;
   min-height: 400px;
   width: 98%;
   /* background-color: #0F0; */
-  background-color: #e5e3e4;
-  border-radius: 5px;
-  box-shadow: -5px 5px 9px #b8b8b3;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #2563eb;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
   padding:0;
   padding-top: 15px;
   margin-top: 15px;
@@ -363,7 +389,7 @@ text-align: left;
   padding: 0;
 }
 #skillsIcon2 img{
-  background-color: #335197;
+  background-color: #0f766e;
   height: 70px;
   /* padding: 0;
   background-repeat: no-repeat;
@@ -373,6 +399,7 @@ text-align: left;
 } 
 #skillsTitleText2{
   text-align: left;
+  color: #0f172a;
 }
 #AppDevText{
   text-align: left;
@@ -391,7 +418,7 @@ text-align: left;
   padding:0;
 }
 #skillsIcon2 img{
-  background-color: #335197;
+  background-color: #0f766e;
   height: 70px;
   /* padding: 0;
   background-repeat: no-repeat;
@@ -405,9 +432,11 @@ text-align: left;
   min-height: 400px;
   width: 98%;
   /* background-color: #0F0; */
-  background-color: #e5e3e4;
-  border-radius: 5px;
-  box-shadow: -5px 5px 9px #b8b8b3;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #0f766e;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
   padding:0;
   padding-top: 15px;
   margin-top: 15px;
@@ -417,7 +446,7 @@ text-align: left;
   padding: 0;
 }
 #skillsIcon1 img{
-  background-color: #335197;
+  background-color: #1d4ed8;
   height: 70px;
   /* padding: 0;
   background-repeat: no-repeat;
@@ -429,7 +458,7 @@ text-align: left;
   padding: 0;
 }
 #skillsIcon3 img{
-  background-color: #335197;
+  background-color: #0f766e;
   height: 70px;
   /* padding: 0;
   background-repeat: no-repeat;
@@ -439,35 +468,35 @@ text-align: left;
 }
 #Master2Text{
   padding: 0;
-  color: #2f3542;
+  color: #1f2937;
 }
 #Master2Town{
   padding: 0;
 }
 #Master1Text{
   padding: 0;
-  color: #2f3542;
+  color: #1f2937;
 }
 #Master1Town{
   padding: 0;
 }
 #LisenceText{
   padding: 0;
-  color: #2f3542;
+  color: #1f2937;
 }
 #LisenceTown{
   padding: 0;
 }
 #DEUG2Text{
   padding: 0;
-  color: #2f3542;
+  color: #1f2937;
 }
 #DEUG2Town{
   padding: 0;
 }
 #highSchoolDegreeText{
   padding: 0;
-  color: #2f3542;
+  color: #1f2937;
 }
 #highSchoolDegreeTown{
   padding: 0;
@@ -485,13 +514,15 @@ text-align: left;
 }
 #schoolCurriculumTitleText2{
   text-align:left;
+  color: #0f172a;
 }
 #footerRow{
   margin-top: 15px;
   /* margin: 0; */
   /* background-color: #335197; */
-  background-color: #323139;
-  box-shadow: -5px 5px 9px #b8b3b3;
+  background: linear-gradient(135deg, #0f172a 0%, #111827 52%, #164e63 100%);
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.18);
+  border-radius: 8px 8px 0 0;
 }
 #ResumeDiv{
   padding: 0;
@@ -511,7 +542,7 @@ text-align: left;
 }
 #ResumeDivContentText{
   padding: 0;
-  color: #eee;
+  color: #dbeafe;
   text-align: left;
   min-height: 50px;
   /* background-color: #a8d2fb; */
@@ -532,7 +563,7 @@ text-align: left;
   height: 25px;
 }
 #phoneNumber2{
-  color: #eee;
+  color: #dbeafe;
 }
 #phoneNumber2:hover{
   color: #fff;
@@ -550,7 +581,7 @@ text-align: left;
   margin-left: 6px;
 }
 #emailAddress{
-  color: #eee;
+  color: #dbeafe;
   margin-left: 10px;
 }
 #emailAddress:hover{
@@ -594,7 +625,7 @@ text-align: left;
   font-size: 13pt;
   padding: 0;
   text-align: left;
-  color: #eee;
+  color: #dbeafe;
 }
 #referencesLiText:hover{
   color: #fff;
@@ -606,7 +637,7 @@ text-align: left;
   text-align: left;
 }
 #count, #countPlus{
-  color: #8da9f5;
+  color: #67e8f9;
 }
 #counterText:hover{
   cursor:pointer;
@@ -642,32 +673,32 @@ text-align: left;
   margin-top: 1px;
 }
 #msg, #fromEmail{
-  background-color: #323139;
-  border: solid #fff 1px;
+  background-color: rgba(15, 23, 42, 0.72);
+  border: solid rgba(219, 234, 254, 0.7) 1px;
   color: #fff;
   /* font-size: 15px; */
 }
 #msg:hover, #fromEmail:hover{
-  background-color: #3d3c46;
+  background-color: rgba(30, 41, 59, 0.86);
 }
 #copyrightRow{
-  box-shadow: -5px 5px 9px #b8b3b3;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
 }
 #copyRightDiv{
-  background-color: #323139;
+  background-color: #0f172a;
   /* background-color: #335197; */
   text-align: center;
   padding: 0;
-  color: #eee;
+  color: #dbeafe;
   /* border: solid #f00 1px; */
   margin-top: 1px;
 }
 #copyRightDivBeside{
-  background-color: #323139;
+  background-color: #0f172a;
   /* background-color: #335197; */
   text-align: center;
   padding: 0;
-  color: #323139;
+  color: #0f172a;
   /* color: #335197; */
   /* border: solid #f00 1px; */
   margin-top: 1px;
@@ -684,11 +715,11 @@ text-align: left;
       margin: 5px 0;
     }
     #headRow{
-      background-color: #335197;
+      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
       min-height: 478px;
       color: #fff;
       text-align: center;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
     }
     #nameRow{
       margin-top: -11px;
@@ -697,7 +728,7 @@ text-align: left;
       margin-top:-110px; 
     }
     #divPhotoInner{
-      background-color: #7676fb;
+      background-color: #ffffff;
       background-image: url("./photoSANDELohJonathan-v3.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -706,13 +737,13 @@ text-align: left;
       margin: auto;
       position: relative;
       /* background-position: center; */
-      box-shadow: 0px 5px 9px #b8b3b3;
+      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
     }
     #Skills{
       height: 250px;
-      background-color: #e5e3e4;
-      border-radius: 5px;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
       margin-top: 17px;
     }
     #skillsTitleText2{
@@ -742,11 +773,11 @@ text-align: left;
       margin: 5px 0;
     }
     #headRow{
-      background-color: #335197;
+      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
       min-height: 435px;
       color: #fff;
       text-align: center;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
     }
     #nameRow{
       margin-top: -11px;
@@ -755,7 +786,7 @@ text-align: left;
       margin-top:-110px; 
     }
     #divPhotoInner{
-      background-color: rgb(118, 118, 251);
+      background-color: #ffffff;
       background-image: url("./photoSANDELohJonathan-v3.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -764,13 +795,13 @@ text-align: left;
       margin: auto;
       position: relative;
       /* background-position: center; */
-      box-shadow: 0px 5px 9px #b8b3b3;
+      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
     }
     #Skills{
       height: 250px;
-      background-color: #e5e3e4;
-      border-radius: 5px;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
       margin-top: 17px;
     }
     #skillsTitleText2{
@@ -801,11 +832,11 @@ text-align: left;
       margin: 5px 0;
     }
     #headRow{
-      background-color: #335197;
+      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
       min-height: 380px;
       color: #fff;
       text-align: center;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
     }
     #nameRow{
       margin-top: -11px;
@@ -814,7 +845,7 @@ text-align: left;
       margin-top:-110px; 
     }
     #divPhotoInner{
-      background-color: rgb(118, 118, 251);
+      background-color: #ffffff;
       background-image: url("./photoSANDELohJonathan-v3.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -823,13 +854,13 @@ text-align: left;
       margin: auto;
       position: relative;
       /* background-position: center; */
-      box-shadow: 0px 5px 9px #b8b3b3;
+      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
     }
     #Skills{
       height: 250px;
-      background-color: #e5e3e4;
-      border-radius: 5px;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
       margin-top: 17px;
     }
     #skillsTitleText2{
@@ -856,11 +887,11 @@ text-align: left;
       margin: 5px 0;
     }
     #headRow{
-      background-color: #335197;
+      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
       min-height: 340px;
       color: #fff;
       text-align: center;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
     }
     #nameRow{
       margin-top: -11px;
@@ -869,7 +900,7 @@ text-align: left;
       margin-top:-110px; 
     }
     #divPhotoInner{
-      background-color: rgb(118, 118, 251);
+      background-color: #ffffff;
       background-image: url("./photoSANDELohJonathan-v3.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -878,13 +909,13 @@ text-align: left;
       margin: auto;
       position: relative;
       /* background-position: center; */
-      box-shadow: 0px 5px 9px #b8b3b3;
+      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
     }
     #Skills{
       height: 250px;
-      background-color: #e5e3e4;
-      border-radius: 5px;
-      box-shadow: -5px 5px 9px #b8b3b3;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
       margin-top: 17px;
     }
     #skill3Left1{
