@@ -1,241 +1,125 @@
-#choosVersionContainer{
-    background: linear-gradient(135deg, #0f172a 0%, #132238 52%, #f8fafc 52%, #eef6fb 100%);
-    min-height: 100vh;
-    padding-top: 24px;
-    padding-bottom: 24px;
+:root {
+  --ink: #0f172a;
+  --accent-blue: #2563eb;
+  --accent-blue-dark: #1d4ed8;
+  --accent-cyan: #0891b2;
+  --accent-indigo: #6366f1;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --shadow-md: 0 18px 45px rgba(15, 23, 42, 0.14);
+  --radius: 16px;
+  --font: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
 }
-#chooseVersion{
-      margin-top: 10px;
-      padding: 24px;
-      background-color: rgba(255, 255, 255, 0.94);
-      border: 1px solid #e2e8f0;
-      border-radius: 8px;
-      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.16);
-}
-#centeredImageTag{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #fff;
-      border: 6px solid #ffffff;
-      border-radius: 50%;
-      width: 55%;
-      margin-bottom: 18px;
-      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.22);
-}
-/* #centeredImage{
-      background-image:url("../photoSANDELohJonathanAccueil-v2.png");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-color: #fff;
-      min-height: 150px;
-      border-radius: 50%; 
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-} */
-    #english, #french{
-      min-height: 72px;
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 0;
-      line-height: 1.15;
-      white-space: normal;
-      margin-bottom: 10px;
-      border: 0;
-      border-radius: 6px;
-      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.16);
-      transition: background-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
-    }
-    #english{
-      background-color: #2563eb;
-      color: #ffffff;
-    }
-    #french{
-      background-color: #0f172a;
-      color: #ffffff;
-    }
-    #english:hover, #english:focus,
-    #french:hover, #french:focus{
-      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.2);
-      transform: translateY(-1px);
-    }
-    #english:hover, #english:focus{
-      background-color: #1d4ed8;
-    }
-    #french:hover, #french:focus{
-      background-color: #06b6d4;
-    }
 
-   
-      
-      /*========================#==========================
-        =            Bootstrap 3.3.7 Media Queries             =
-        ==================================================*/
-      
-        /*==========  Mobile First Method  ==========*/
-        /* ========== ( Screen <= 319px ) */ 
-        @media only screen and (max-width : 319px) {
-          #englishButtonDiv, #frenchButtonDiv{
-            margin: 5px 0;
-          }
-          #centeredImageTag{
-            width: 100%; 
-            }
-        #english, #french{
-            min-height: 80px;
-            font-size: 100%;
-            }
-        }
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      
-        /* Custom, iPhone Retina ( 319px < Screen <= 480px ) */ 
-        @media only screen and (max-width : 480px) and (min-width : 320px) {
-          #englishButtonDiv, #frenchButtonDiv{
-            margin: 5px 0;
-          }          
-          #englishLevelDiv, #frenchLevelDiv{
-            padding-top:0;
-            margin-top: -10px;
-          }
-          #centeredImageTag{
-            width: 75%; 
-            }
-            #english, #french{
-                min-height: 80px;
-                font-size: 20px;
-                }
-        }
-      
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      
-        /* Extra Small Devices, Phones ( 480px < Screen <= 768px ) */ 
-        @media only screen and (max-width : 768px) and (min-width : 481px) {
-          #englishButtonDiv, #frenchButtonDiv{
-            margin: 5px 0;
-          }
-          #centeredImageTag{
-            width: 75%; 
-            }
-        }
-      
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      
-        /* Small Devices, Tablets ( 768px < Screen <= 991px ) */
-        @media only screen and (max-width : 991px) and (min-width : 769px) {
-          #englishButtonDiv, #frenchButtonDiv{
-            margin: 5px 0;
-          }
-          #centeredImageTag{
-            width: 75%; 
-            }
-        }
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      
-        /* Small Devices, Tablets ( Screen == 992px ) */
-        @media only screen and (width : 992px) {
-          #englishButtonDiv, #frenchButtonDiv{
-            margin: 5px 0;
-          }
-          #centeredImageTag{
-            width: 100%; 
-            }
-        }
-      
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      /* Small Devices, Tablets ( 992px < Screen <= 1024px ) */
-      
-      @media only screen and (max-width : 1024px) and (min-width : 993px) {
-        #englishButtonDiv, #frenchButtonDiv{
-          margin: 5px 0;
-        }
-        #centeredImageTag{
-            width: 100%; 
-            }
-        }
-      
-      /* Medium Devices, Desktops ( 1024px < Screen <= 1600px ) */
-      
-      /* Small Devices, Tablets ( Screen == 1025px ) */
-      
-      /* Small Devices, Tablets ( 1026px < Screen <= 1199px ) */
-      
-      /* Small Devices, Tablets ( 1200px < Screen <= 1224px ) */
-      
-      /* Small Devices, Tablets ( Screen == 1225px ) */
-      
-      /* Small Devices, Tablets ( 1226px < Screen <= 1229px ) */
-      
-      /* Small Devices, Tablets ( Screen == 1230px ) */
-      
-      /* Small Devices, Tablets ( 1231px < Screen <= 1234px ) */
-      
-      /* Small Devices, Tablets ( Screen == 1235px ) */
-      
-      /* Small Devices, Tablets ( 1236px < Screen <= 1234px ) */
-      
-      
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      
-        /* Medium Devices, Desktops ( 1024px < Screen <= 1199px ) */
-        @media only screen and (max-width : 1199px) and (min-width : 1025px) {
-          #englishButtonDiv, #frenchButtonDiv{
-            margin: 5px 0;
-          }
-          #centeredImageTag{
-            width: 100%; 
-            }
-        }
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      
-        /* Medium Devices, Desktops ( 1199px < Screen <= 1600px ) */
-        @media only screen and (max-width : 1600px) and (min-width : 1200px) {
-            #english, #french{
-                min-height: 100px;
-                font-size: 30px;
-                }
-            #centeredImageTag{
-                width: 65%; 
-                }
-        }
-      
-      /* ====================================================================== */ 
-      /* ================================================== */ 
-      /* ============================== */ 
-      
-        /* Large Devices, Wide Screens ( 1600px < Screen ) */
-        @media only screen and (min-width : 1601px) {
-            #english, #french{
-                min-height: 150px;
-                font-size: 40px;
-                }
-            #centeredImageTag{
-                width: 95%; 
-                }
-        }
-      
-      /* Small Devices, Tablets ( 768px < Screen <= 990px ) 
-        @media only screen and (max-width : 991px) and (min-width : 769px) {
-                 
-        };*/
-      
-      /* Medium Devices, Desktops ( 992px <= Screen < 1200px ) 
-        @media only screen and (max-width : 1199px) and (min-width : 992px) {
-                 
-        };*/
-      
+body {
+  font-family: var(--font);
+}
+
+#choosVersionContainer {
+  background: linear-gradient(135deg, #0f172a 0%, #132238 48%, #f8fafc 48%, #eef6ff 100%);
+  min-height: 100vh;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#chooseVersion {
+  margin-top: 10px;
+  padding: 28px;
+  background-color: rgba(255, 255, 255, 0.97);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+#centeredImageTag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--surface);
+  border: 5px solid var(--surface);
+  border-radius: 50%;
+  width: 55%;
+  margin-bottom: 22px;
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.2);
+}
+
+#english, #french {
+  min-height: 72px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.15;
+  white-space: normal;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+#english {
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-indigo));
+  color: #fff;
+}
+
+#french {
+  background: linear-gradient(135deg, var(--ink), #1e293b);
+  color: #fff;
+}
+
+#english:hover, #english:focus,
+#french:hover, #french:focus {
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.28);
+  transform: translateY(-2px);
+}
+
+#french:hover, #french:focus {
+  background: linear-gradient(135deg, #1e40af, var(--accent-cyan));
+}
+
+@media only screen and (max-width: 319px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #centeredImageTag { width: 100%; }
+  #english, #french { min-height: 80px; font-size: 100%; }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #centeredImageTag { width: 75%; }
+  #english, #french { min-height: 80px; font-size: 20px; }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #centeredImageTag { width: 75%; }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 769px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #centeredImageTag { width: 75%; }
+}
+
+@media only screen and (width: 992px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #centeredImageTag { width: 100%; }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 993px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #centeredImageTag { width: 100%; }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #centeredImageTag { width: 100%; }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+  #english, #french { min-height: 100px; font-size: 30px; }
+  #centeredImageTag { width: 65%; }
+}
+
+@media only screen and (min-width: 1601px) {
+  #english, #french { min-height: 150px; font-size: 40px; }
+  #centeredImageTag { width: 95%; }
+}

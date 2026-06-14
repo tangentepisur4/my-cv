@@ -1,36 +1,70 @@
+/* —— International professional theme —— */
+:root {
+  --ink: #0f172a;
+  --ink-muted: #475569;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --bg-soft: #f8fafc;
+  --accent-blue: #2563eb;
+  --accent-blue-dark: #1d4ed8;
+  --accent-cyan: #0891b2;
+  --accent-teal: #0d9488;
+  --accent-indigo: #6366f1;
+  --accent-violet: #7c3aed;
+  --accent-emerald: #059669;
+  --accent-sky: #38bdf8;
+  --footer-from: #0f172a;
+  --footer-mid: #111827;
+  --footer-to: #164e63;
+  --shadow-sm: 0 4px 14px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 14px 32px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 22px 45px rgba(15, 23, 42, 0.18);
+  --radius: 12px;
+  --font: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
 body {
-  background: linear-gradient(180deg, #f8fafc 0%, #eef6ff 46%, #f9fafb 100%);
-  color: #1f2937;
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, var(--bg-soft) 0%, #eef6ff 48%, #f9fafb 100%);
+  color: var(--ink);
+  font-family: var(--font);
+  font-weight: 400;
+  line-height: 1.5;
 }
-#innerRow{
-  margin: 0;
-  /* background-color: #faebd7; */
+
+#innerRow { margin: 0; }
+
+hr {
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 0;
+  height: 1px;
 }
-hr{
-  background-color: rgba(255, 255, 255, 0.55);
-}
-#nameCol{
-  padding: 0;
-}
-#nameColleft, #nameColRight{
-  padding: 0;
-}
-#headRow{
-  background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
+
+#headRow {
+  background: linear-gradient(135deg, #0f172a 0%, #1e40af 52%, #0891b2 100%);
   min-height: 315px;
   color: #fff;
   text-align: center;
-  box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
+  box-shadow: var(--shadow-lg);
 }
-#nameRow{
-  margin-top: -11px;
+
+#headRow h3,
+#nameRow h3 {
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
-#divPhotoOuter{
-  margin-top:-110px;
+
+#headRow h4 {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.55;
 }
-#divPhotoInner{
-  background-color: #ffffff;
+
+#nameRow { margin-top: -11px; }
+
+#divPhotoOuter { margin-top: -110px; }
+
+#divPhotoInner {
+  background-color: var(--surface);
   background-image: url("./photoSANDELohJonathan-v3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,968 +72,407 @@ hr{
   width: 160px;
   margin: auto;
   position: relative;
-  /* background-position: center; */
-  border: 5px solid #ffffff;
-  box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
+  border: 5px solid var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
 }
-#skillsDivLevel0{
+
+#skillsDivLevel0 {
   min-height: 400px;
   margin-top: 17px;
   padding: 0;
   background-color: transparent;
 }
-#leftColumn{
+
+#leftColumn {
   float: left;
   height: 100%;
   position: absolute;
   width: 1%;
-  background: linear-gradient(180deg, #1d4ed8 0%, #0891b2 100%);
+  background: linear-gradient(180deg, var(--accent-blue) 0%, var(--accent-cyan) 100%);
   box-shadow: none;
 }
-#skillsDivLevel1{
+
+/* Shared card style */
+#skillsDivLevel1,
+#skillsDivLevel2,
+#skillsDivLevel3,
+#skillsDivLevel4,
+#skillsDivLevel5,
+#skillsDivLevel6 {
   float: right;
-  min-height: 400px;
   width: 98%;
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.08);
-  padding:0;
-}
-#skillLeft1{
-  /* background-color: #e5e3e4; */
-  /* background-color: #fff; */
-  min-height: 450px;
+  background-color: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  padding: 0;
+  padding-top: 15px;
+  margin-top: 15px;
   text-align: center;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  padding:0;
-}
-#skillRight1{
-  /* background-color: #e5e3e4; */
-  /* background-color: #fff; */
-  min-height: 450px;
-  text-align: center;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding:0;
-}
-#personalDataTextTitle{
-  min-height: 80px;
-  padding: 0;
-  /* background-color: #7fff00; */
-  text-align: center;
-}
-#afterDataTitle1{
-  min-height: 20px;
-  padding: 0;
-  /* background-color: #7fff00; */
-}
-#afterDataTitle2{
-  min-height: 10px;
-  padding: 0;
-  /* background-color: #ff0000; */
-}
-img{
-  height: 50px;
-  /* background-color: #f00; */
-}
-#nameIcon{
-  min-height: 50px;
-  padding: 0;
-  /* background-color: #7fff00;  */
- /*  background-image: url("./icons/nameIcon.ico"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right center; */
-}
-#nameIcon img:hover {
-  animation: rotateY 1s infinite;
-}
-@keyframes rotateY{
-  100% {transform: rotateY(360deg);}
 }
 
-@keyframes spin{
-  100% {transform: rotate(360deg);}
+#skillsDivLevel1 { min-height: 400px; }
+#skillsDivLevel2 { min-height: 400px; border-left: 5px solid var(--accent-cyan); }
+#skillsDivLevel3 { min-height: 400px; border-left: 5px solid var(--accent-blue); }
+#skillsDivLevel4 { min-height: 400px; border-left: 5px solid var(--accent-indigo); }
+#skillsDivLevel5 { min-height: 200px; border-left: 5px solid var(--accent-violet); }
+#skillsDivLevel6 { min-height: 150px; border-left: 5px solid var(--accent-emerald); }
+
+#skillLeft1,
+#skillRight1 {
+  min-height: 450px;
+  text-align: center;
+  padding: 0;
 }
-#nameText{
+
+#personalDataTextTitle { min-height: 80px; padding: 0; text-align: center; }
+#afterDataTitle1 { min-height: 20px; padding: 0; }
+#afterDataTitle2 { min-height: 10px; padding: 0; }
+
+img { height: 50px; }
+
+#nameIcon { min-height: 50px; padding: 0; }
+#nameIcon img:hover { animation: rotateY 1s infinite; }
+
+#addressIcon { min-height: 60px; padding: 0; }
+#addressIcon img:hover { animation: rotateY2 1s infinite; }
+
+#phoneIcon { min-height: 55px; padding: 0; }
+#phoneIcon img:hover { animation: spin 1s infinite; }
+
+#eMailIcon { min-height: 55px; padding: 0; }
+#eMailIcon img:hover { animation: rotate3d 1s infinite; }
+
+#languageIcon { padding: 0; }
+#languageIcon img { min-height: 67px; }
+#languageIcon img:hover { animation: spin2 1s infinite; }
+
+#carIcon { padding: 0; }
+#carIcon img:hover { animation: spin 1s infinite; }
+
+@keyframes rotateY { 100% { transform: rotateY(360deg); } }
+@keyframes rotateY2 { 100% { transform: rotateY(-360deg); } }
+@keyframes spin { 100% { transform: rotate(360deg); } }
+@keyframes rotate3d { 100% { transform: rotate3d(1, 3, 0, 360deg); } }
+@keyframes spin2 { 100% { transform: rotate(-360deg); } }
+
+#nameText, #addressText, #phoneText, #eMailText, #languageText, #carText {
   min-height: 50px;
   padding: 0;
-  /* background-color: #98e24e; */
   text-align: left;
 }
-#addressIcon{
-  min-height: 60px;
-  padding: 0;
-  /* background-color: #7fff00; */
- /* background-image: url("./icons/addressIcon.ico");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:right center; */
+
+#nameText h3, #addressText h3, #phoneText h3, #eMailText h3, #carText h3 {
+  color: var(--ink-muted);
+  font-size: 0.95em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
-#addressIcon img:hover {
-  animation: rotateY2 1s infinite;
-}
-@keyframes rotateY2{
-  100% {transform: rotateY(-360deg);}
-}
-#addressText{
-  min-height: 50px;
-  padding: 0;
-  /* background-color: #98e24e; */
-  text-align: left;
-}
-#phoneIcon{
-  min-height: 55px;
-  padding: 0;
-  /* background-color: #7fff00; */
-  /* background-image: url("./icons/phoneIcon.ico");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:right center; */
-}
-#phoneIcon img:hover {
-  animation: spin 1s infinite;
-}
-#phoneText{
-  min-height: 50px;
-  padding: 0;
-  /* background-color: #98e24e; */
-  text-align: left;
-}
-#eMailIcon{
-  min-height: 55px;
-  padding: 0;
-  /* background-color: #7fff00; */
-  /* background-image: url("./icons/eMailIcon.ico");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:right center; */
-}
-#eMailIcon img:hover {
-  animation: rotate3d 1s infinite;
-}
-@keyframes rotate3d{
-  100% {transform: rotate3d(1,3,0, 360deg);}
-}
-#eMailText{
-  min-height: 50px;
-  padding: 0;
-  /* background-color: #98e24e; */
-  text-align: left;
-}
-#languageIcon{
-  /* min-height: 50px; */
-  padding: 0;
-  /* background-color: #7fff00; */
-  /* background-image: url("./icons/languageIcon.ico");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center bottom; */
-}
-#languageIcon img{
-  min-height: 67px;
-}
-#languageIcon img:hover {
-  animation: spin2 1s infinite;
-}
-@keyframes spin2{
-  100% {transform: rotate(-360deg);}
-}
-#languageText{
-  min-height: 50px;
-  padding: 0;
-  /* background-color: #98e24e; */
-  text-align: left;
-}
-#carIcon{
-  /* min-height: 50px; */
-  padding: 0;
-  /* background-color: #7fff00; */
-  /* background-image: url("./icons/steeringWheel.ico");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center center; */
-}
-#carIcon img:hover {
-  animation: spin 1s infinite;
-}
-#carText{
-  min-height: 50px;
-  padding: 0;
-  /* background-color: #98e24e; */
-  text-align: left;
-}
-#fullCirleIcon{
+
+#fullCirleIcon {
   min-height: 35px;
   padding: 0;
-  /* background-color: #7fff00;
-  border: solid #000 1px; */
   background-image: url("./icons/circleIcon.ico");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position:center bottom;
-
+  background-position: center bottom;
 }
-#hollowllCirleIcon{
+
+#hollowllCirleIcon {
   min-height: 35px;
   padding: 0;
-  /* background-color: #7fff00;
-  border: solid #000 1px; */
   background-image: url("./icons/circleGrayIcon.ico");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position:center bottom;
-}
-#englishText, #englishText2, #englishLevelDiv, #frenchText, #frenchText2, #frenchLevelDiv{
-  padding: 0;
+  background-position: center bottom;
 }
 
-#englishLevelDiv, #frenchLevelDiv{
-  padding-top: 15px;
-}
-#skillsDivLevel2{
-  /* background-color: #07b97e; */
-  float: right;
-  min-height: 400px;
-  width: 98%;
-  /* background-color: #0F0; */
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-  border-left: 5px solid #0891b2;
-  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-  padding:0;
-  padding-top: 15px;
-  margin-top: 15px;
-  text-align: center;
-}
-#skillsDivLevel3{
-  /* background-color: #07b97e; */
-  float: right;
-  min-height: 400px;
-  width: 98%;
-  /* background-color: #0F0; */
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-  border-left: 5px solid #2563eb;
-  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-  padding:0;
-  padding-top: 15px;
-  margin-top: 15px;
-  text-align: center;
-}
-#skillLeft2{
-  padding: 0;
-  min-height: 500px;
-}
-#skillLeft3{
-  padding: 0;
-  min-height: 500px;
-}
-#skillLeft2Row1{
-  padding: 0;
-  /* background-color: #7676fb; */
-}
+#englishText, #englishText2, #englishLevelDiv,
+#frenchText, #frenchText2, #frenchLevelDiv { padding: 0; }
+#englishLevelDiv, #frenchLevelDiv { padding-top: 15px; }
 
-#skillsIcon2{
-  padding: 0;
-}
-#skillsIcon2 img{
-  background-color: #0f766e;
-  height: 70px;
-  /* padding: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center bottom;
-  background-image: url("./icons/skillsIcon2.ico");*/
-}
-#skillsTitleText1{
-  text-align: left;
-  color: #0f172a;
-}
-#UGVRow1DateAndTitle{
-  padding: 0;
-  text-align: left;
-}
-#UGVRow1Content{
-  padding: 0;
-  text-align: left;
-}
-#linkKendaAfrique{
-  color: #2563eb;
-}
-#linkKendaAfrique:hover{
-  color: #1d4ed8;
-}
-#UGVRow1Content ul{
-  list-style: square;
-}
-#UGVRow2DateAndTitle{
-padding: 0;
-text-align: left;
-}
-#UGVRow2Content, #UGVRow3DateAndTitle{
-  padding: 0;
-  text-align: left;
-}
-#linkUGV{
-  color: #2563eb;
-}
-#linkUGV:hover{
-  color: #1d4ed8;
-}
-.companyLink{
-  color: #2563eb;
-}
-.companyLink:hover{
-  color: #1d4ed8;
-}
-#UGVRow3DateAndTitle ul{
-  padding: 0;
-  text-align: left;
-}
-#UGVRow3Content{
-  padding: 0;
-  text-align: left;
-}
-#skillsDivLevel3{
-  /* background-color: #07b97e; */
-  float: right;
-  min-height: 400px;
-  width: 98%;
-  /* background-color: #0F0; */
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-  border-left: 5px solid #2563eb;
-  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-  padding:0;
-  padding-top: 15px;
-  margin-top: 15px;
-  text-align: center;
-}
-#skillLeft3{
-  padding: 0;
-  min-height: 500px;
-}
-#skillsIcon2{
-  padding: 0;
-}
-#skillsIcon2 img{
-  background-color: #0f766e;
-  height: 70px;
-  /* padding: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center bottom;
-  background-image: url("./icons/skillsIcon2.ico");*/
-} 
-#skillsTitleText2{
-  text-align: left;
-  color: #0f172a;
-}
-#AppDevText{
-  text-align: left;
-}
-#skillLeft3Row1{
-  padding: 0;
-  /* background-color: #7676fb; */
-}
-#skillRight3{
-  /* background-color: #e5e3e4; */
-  /* background-color: #fff; */
-  min-height: 450px;
-  text-align: center;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding:0;
-}
-#skillsIcon2 img{
-  background-color: #0f766e;
-  height: 70px;
-  /* padding: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center bottom;
-  background-image: url("./icons/skillsIcon2.ico");*/
-}
-#skillsDivLevel4{
-  /* background-color: #07b97e; */
-  float: right;
-  min-height: 400px;
-  width: 98%;
-  /* background-color: #0F0; */
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-  border-left: 5px solid #0f766e;
-  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-  padding:0;
-  padding-top: 15px;
-  margin-top: 15px;
-  text-align: center;
-}
-#skillsIcon1{
-  padding: 0;
-}
-#skillsIcon1 img{
+#skillLeft2, #skillLeft3 { padding: 0; min-height: 500px; }
+#skillLeft2Row1, #skillLeft3Row1 { padding: 0; }
+
+#skillsIcon1 img {
   background-color: #1d4ed8;
   height: 70px;
-  /* padding: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center bottom;
-  background-image: url("./icons/skillsIcon2.ico");*/
 }
-#skillsIcon3{
-  padding: 0;
-}
-#skillsIcon3 img{
+#skillsIcon2 img {
   background-color: #0f766e;
   height: 70px;
-  /* padding: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center bottom;
-  background-image: url("./icons/skillsIcon2.ico");*/
 }
-#Master2Text{
-  padding: 0;
-  color: #1f2937;
+#skillsIcon3 img {
+  background-color: #0f766e;
+  height: 70px;
 }
-#Master2Town{
-  padding: 0;
+#skillsIcon4 img {
+  background-color: #0f766e;
+  height: 70px;
 }
-#Master1Text{
-  padding: 0;
-  color: #1f2937;
+
+#skillsIcon1, #skillsIcon2, #skillsIcon3, #skillsIcon4 { padding: 0; }
+
+#skillsTitleText1,
+#skillsTitleText2,
+#skillsTitleText3,
+#schoolCurriculumTitleText2 {
+  text-align: left;
+  color: var(--ink);
+  font-weight: 700;
 }
-#Master1Town{
-  padding: 0;
-}
-#LisenceText{
-  padding: 0;
-  color: #1f2937;
-}
-#LisenceTown{
-  padding: 0;
-}
-#DEUG2Text{
-  padding: 0;
-  color: #1f2937;
-}
-#DEUG2Town{
-  padding: 0;
-}
-#highSchoolDegreeText{
-  padding: 0;
-  color: #1f2937;
-}
-#highSchoolDegreeTown{
-  padding: 0;
-}
-#skill3Left1{
+
+#UGVRow1DateAndTitle, #UGVRow1Content, #UGVRow2Content,
+#UGVRow3DateAndTitle, #UGVRow3Content, #UGVRow2DateAndTitle {
   padding: 0;
   text-align: left;
 }
-#topSkillsRow{
-  min-height:35px;
+
+#UGVRow1Content ul,
+#UGVRow2Content ul,
+#UGVRow3Content ul,
+#careerObjectiveText ul {
+  list-style: none;
+  padding-left: 0;
 }
-#bottomSkillsRow{
-  min-height:30px;
-  /* background-color: #00f; */
+
+#UGVRow1Content ul li,
+#UGVRow2Content ul li,
+#UGVRow3Content ul li,
+#UGVRow4Content ul li,
+#UGVRow5Content ul li,
+#careerObjectiveText ul li {
+  position: relative;
+  padding-left: 1.1em;
+  margin-bottom: 0.35em;
 }
-#schoolCurriculumTitleText2{
-  text-align:left;
-  color: #0f172a;
+
+#UGVRow1Content ul li::before,
+#UGVRow2Content ul li::before,
+#UGVRow3Content ul li::before,
+#UGVRow4Content ul li::before,
+#UGVRow5Content ul li::before,
+#careerObjectiveText ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: var(--accent-blue);
+  border-radius: 1px;
 }
-#footerRow{
-  margin-top: 15px;
-  /* margin: 0; */
-  /* background-color: #335197; */
-  background: linear-gradient(135deg, #0f172a 0%, #111827 52%, #164e63 100%);
-  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.18);
-  border-radius: 8px 8px 0 0;
+
+#linkKendaAfrique, #linkUGV, .companyLink {
+  color: var(--accent-blue);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
-#ResumeDiv{
+
+#linkKendaAfrique:hover, #linkUGV:hover, .companyLink:hover {
+  color: var(--accent-cyan);
+  border-bottom-color: var(--accent-cyan);
+}
+
+#AppDevText { text-align: left; color: var(--ink-muted); }
+#AppDevText b { color: var(--ink); }
+
+#skillRight3 {
+  min-height: 450px;
+  text-align: center;
   padding: 0;
-  min-height: 150px;
-  /* border: solid #f00 1px; */
-  /* background-color: #3b91e7; */
 }
-#ResumeDivTitleText{
+
+#Master2Text, #Master1Text, #LisenceText, #DEUG2Text, #highSchoolDegreeText {
+  padding: 0;
+  color: var(--ink);
+}
+
+#skill3Left1 { padding: 0; text-align: left; }
+#topSkillsRow { min-height: 35px; }
+#bottomSkillsRow { min-height: 30px; }
+
+#footerRow {
+  margin-top: 15px;
+  background: linear-gradient(135deg, var(--footer-from) 0%, var(--footer-mid) 52%, var(--footer-to) 100%);
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+#ResumeDivTitleText,
+#referencesTitleText,
+#contactMeTitleText {
   color: #fff;
   padding: 0;
   text-align: center;
   min-height: 50px;
-  /* background-color: #3b91e7; */
+  font-weight: 700;
 }
-#ResumeDivTitleText:hover{
-  color: #fff;
-}
-#ResumeDivContentText{
+
+#ResumeDivContentText {
   padding: 0;
   color: #dbeafe;
   text-align: left;
   min-height: 50px;
-  /* background-color: #a8d2fb; */
+  line-height: 1.55;
 }
-#ResumeDivContentText:hover{
-  color: #fff;
-}
-#innerRowPhoneIcon2{
-  margin: 0;
-  padding-top: 5px;
-  /* background-color: #f00; */
-}
-#phoneIcon2{
-  margin-top: 5px;
-  padding: 0;
-}
-#phoneIcon2 img{
-  height: 25px;
-}
-#phoneNumber2{
+
+#ResumeDivContentText:hover { color: #fff; }
+
+#phoneNumber2, #emailAddress, #referencesLiText {
   color: #dbeafe;
 }
-#phoneNumber2:hover{
+
+#phoneNumber2:hover, #emailAddress:hover, #referencesLiText:hover {
   color: #fff;
 }
-#innerRowPhoneIcon2{
-  margin: 0;
-  /* background-color: #f00; */
-}
-#envelopeIcon{
-  /* margin-top: 5px; */
-  padding: 0;
-}
-#envelopeIcon img{
-  height: 35px;
-  margin-left: 6px;
-}
-#emailAddress{
-  color: #dbeafe;
-  margin-left: 10px;
-}
-#emailAddress:hover{
+
+#referencesDiv h3 {
   color: #fff;
-  font-weight: lighter;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 0.5em;
 }
-#innerRowSocialMedia{
-  margin: 0;
-  margin-top: 29px;
-  /* background-color: #f00; */
-}
-#innerRowSocialMedia2{
-  margin-top: 20px;
-}
-#roundedIMG img{
+
+#phoneIcon2 img { height: 25px; }
+#envelopeIcon img { height: 35px; margin-left: 6px; }
+#emailAddress { margin-left: 10px; }
+
+#roundedIMG img {
   padding: 0;
   border: solid #fff 1px;
   border-radius: 5px;
   height: 45px;
-  /* background-color: #ffe4c4; */
 }
-#roundedIMG{
-  padding: 0;
-  /* background-color: #f58a8a; */
-  margin-left: -4px;
-}
-#referencesDiv{
-  padding: 0;
-  min-height: 150px;
-  /* border: solid #f00 1px; */
-  border-right: 0px;
-  border-left: 0px;
-  /* background-color: #34495e; */
-}
-#referencesTitleText{
-  padding: 0;
-  text-align: center;
-  color: #fff;
-}
-#referencesLiText{
-  font-size: 13pt;
-  padding: 0;
-  text-align: left;
-  color: #dbeafe;
-}
-#referencesLiText:hover{
-  color: #fff;
-  font-size: 13.1pt ;
-}
-#countValueDiv{
-  padding: 0;
-  color: #fff;
-  text-align: left;
-}
-#count, #countPlus{
-  color: #67e8f9;
-}
-#counterText:hover{
-  cursor:pointer;
-}
-#count:hover, #countPlus:hover{
-  color: #fff;
-  font-style: italic;
-}
-#sendMessageDiv{
-  padding: 0;
-  min-height: 150px;
-  /* border: solid #f00 1px; */
-  /* background-color: #03284d; */
-}
-#contactMeTitleText{
-  padding: 0;
-  color: #fff;
-  text-align: center;
-}
-#formUpperRow{
-  height: 15px;
-  margin: 0;
-}
-/* #sendButton{
-  background-color: #335197;
-  border: solid #335197;
-} */
-#formInputsDiv{
-  padding: 0;
-}
-#forminnerRowMessage, #formRowSendButton{
-  margin: 0;
-  margin-top: 1px;
-}
-#msg, #fromEmail{
+
+#roundedIMG { padding: 0; margin-left: -4px; }
+
+#count, #countPlus { color: var(--accent-sky); font-weight: 700; }
+#countValueDiv { padding: 0; color: #fff; text-align: left; }
+#counterText:hover { cursor: pointer; }
+#count:hover, #countPlus:hover { color: #fff; font-style: italic; }
+
+#msg, #fromEmail {
   background-color: rgba(15, 23, 42, 0.72);
-  border: solid rgba(219, 234, 254, 0.7) 1px;
+  border: solid rgba(219, 234, 254, 0.55) 1px;
   color: #fff;
-  /* font-size: 15px; */
+  border-radius: 8px;
 }
-#msg:hover, #fromEmail:hover{
-  background-color: rgba(30, 41, 59, 0.86);
+
+#msg:hover, #fromEmail:hover {
+  background-color: rgba(30, 41, 59, 0.88);
+  border-color: var(--accent-sky);
 }
-#copyrightRow{
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
-}
-#copyRightDiv{
-  background-color: #0f172a;
-  /* background-color: #335197; */
+
+#copyRightDiv {
+  background-color: var(--footer-from);
   text-align: center;
   padding: 0;
   color: #dbeafe;
-  /* border: solid #f00 1px; */
   margin-top: 1px;
 }
-#copyRightDivBeside{
-  background-color: #0f172a;
-  /* background-color: #335197; */
+
+#copyRightDivBeside {
+  background-color: var(--footer-from);
   text-align: center;
   padding: 0;
-  color: #0f172a;
-  /* color: #335197; */
-  /* border: solid #f00 1px; */
+  color: var(--footer-from);
   margin-top: 1px;
 }
 
-/*========================#==========================
-  =            Bootstrap 3.3.7 Media Queries             =
-  ==================================================*/
+.btn-primary, #sendButton {
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan)) !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: opacity 0.2s ease, transform 0.2s ease !important;
+}
 
-  /*==========  Mobile First Method  ==========*/
-  /* ========== ( Screen <= 319px ) */ 
-  @media only screen and (max-width : 319px) {
-    #englishButtonDiv, #frenchButtonDiv{
-      margin: 5px 0;
-    }
-    #headRow{
-      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
-      min-height: 478px;
-      color: #fff;
-      text-align: center;
-      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
-    }
-    #nameRow{
-      margin-top: -11px;
-    }
-    #divPhotoOuter{
-      margin-top:-110px; 
-    }
-    #divPhotoInner{
-      background-color: #ffffff;
-      background-image: url("./photoSANDELohJonathan-v3.jpeg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 216px;
-      width: 160px;
-      margin: auto;
-      position: relative;
-      /* background-position: center; */
-      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
-    }
-    #Skills{
-      height: 250px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-      margin-top: 17px;
-    }
-    #skillsTitleText2{
-      text-align: center;
-    }
-    #skillsTitleText2{
-      text-align:center;
-    }
-    #schoolCurriculumTitleText2{
-      text-align:center;
-    }
-    #englishLevelDiv, #frenchLevelDiv{
-      padding-top:0;
-      margin-top: -20px;
-    }
-    #skill3Left1{
-      text-align: center;
-    }
+.btn-primary:hover, .btn-primary:focus,
+#sendButton:hover, #sendButton:focus {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+#personalDataTextTitle u,
+#skillsTitleText1 b,
+#skillsTitleText2 b,
+#skillsTitleText3 b,
+#schoolCurriculumTitleText2 b {
+  text-decoration-color: var(--accent-cyan);
+}
+
+#referencesText referencesLiText,
+#referencesLiText { font-size: 13pt; }
+
+/* —— Responsive —— */
+@media only screen and (max-width: 319px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #headRow {
+    background: linear-gradient(135deg, #0f172a 0%, #1e40af 52%, #0891b2 100%);
+    min-height: 478px;
+    box-shadow: var(--shadow-lg);
   }
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
-
-  /* Custom, iPhone Retina ( 319px < Screen <= 480px ) */ 
-  @media only screen and (max-width : 480px) and (min-width : 320px) {
-    #englishButtonDiv, #frenchButtonDiv{
-      margin: 5px 0;
-    }
-    #headRow{
-      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
-      min-height: 435px;
-      color: #fff;
-      text-align: center;
-      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
-    }
-    #nameRow{
-      margin-top: -11px;
-    }
-    #divPhotoOuter{
-      margin-top:-110px; 
-    }
-    #divPhotoInner{
-      background-color: #ffffff;
-      background-image: url("./photoSANDELohJonathan-v3.jpeg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 216px;
-      width: 160px;
-      margin: auto;
-      position: relative;
-      /* background-position: center; */
-      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
-    }
-    #Skills{
-      height: 250px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-      margin-top: 17px;
-    }
-    #skillsTitleText2{
-      text-align: center;
-    }
-    #skillsTitleText2{
-      text-align:center;
-    }
-    #schoolCurriculumTitleText2{
-      text-align:center;
-    }
-    #englishLevelDiv, #frenchLevelDiv{
-      padding-top:0;
-      margin-top: -10px;
-    }
-    #skill3Left1{
-      text-align: center;
-    }
+  #divPhotoOuter { margin-top: -110px; }
+  #divPhotoInner {
+    background-image: url("./photoSANDELohJonathan-v3.jpeg");
+    height: 216px; width: 160px;
+    box-shadow: var(--shadow-lg);
   }
+  #skillsTitleText2, #schoolCurriculumTitleText2 { text-align: center; }
+  #englishLevelDiv, #frenchLevelDiv { padding-top: 0; margin-top: -20px; }
+  #skill3Left1 { text-align: center; }
+}
 
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
-
-  /* Extra Small Devices, Phones ( 480px < Screen <= 768px ) */ 
-  @media only screen and (max-width : 768px) and (min-width : 481px) {
-    #englishButtonDiv, #frenchButtonDiv{
-      margin: 5px 0;
-    }
-    #headRow{
-      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
-      min-height: 380px;
-      color: #fff;
-      text-align: center;
-      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
-    }
-    #nameRow{
-      margin-top: -11px;
-    }
-    #divPhotoOuter{
-      margin-top:-110px; 
-    }
-    #divPhotoInner{
-      background-color: #ffffff;
-      background-image: url("./photoSANDELohJonathan-v3.jpeg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 216px;
-      width: 160px;
-      margin: auto;
-      position: relative;
-      /* background-position: center; */
-      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
-    }
-    #Skills{
-      height: 250px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-      margin-top: 17px;
-    }
-    #skillsTitleText2{
-      text-align: center;
-    }
-    #skillsTitleText2{
-      text-align:center;
-    }
-    #schoolCurriculumTitleText2{
-      text-align:center;
-    }
-    #skill3Left1{
-      text-align: center;
-    }
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #headRow {
+    background: linear-gradient(135deg, #0f172a 0%, #1e40af 52%, #0891b2 100%);
+    min-height: 435px;
+    box-shadow: var(--shadow-lg);
   }
+  #divPhotoInner { box-shadow: var(--shadow-lg); }
+  #skillsTitleText2, #schoolCurriculumTitleText2 { text-align: center; }
+  #englishLevelDiv, #frenchLevelDiv { padding-top: 0; margin-top: -10px; }
+  #skill3Left1 { text-align: center; }
+}
 
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
-
-  /* Small Devices, Tablets ( 768px < Screen <= 991px ) */
-  @media only screen and (max-width : 991px) and (min-width : 769px) {
-    #englishButtonDiv, #frenchButtonDiv{
-      margin: 5px 0;
-    }
-    #headRow{
-      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 52%, #0891b2 100%);
-      min-height: 340px;
-      color: #fff;
-      text-align: center;
-      box-shadow: 0 22px 45px rgba(15, 23, 42, 0.22);
-    }
-    #nameRow{
-      margin-top: -11px;
-    }
-    #divPhotoOuter{
-      margin-top:-110px; 
-    }
-    #divPhotoInner{
-      background-color: #ffffff;
-      background-image: url("./photoSANDELohJonathan-v3.jpeg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 216px;
-      width: 160px;
-      margin: auto;
-      position: relative;
-      /* background-position: center; */
-      box-shadow: 0px 18px 38px rgba(15, 23, 42, 0.18);
-    }
-    #Skills{
-      height: 250px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-      margin-top: 17px;
-    }
-    #skill3Left1{
-      text-align: center;
-    }
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #headRow {
+    background: linear-gradient(135deg, #0f172a 0%, #1e40af 52%, #0891b2 100%);
+    min-height: 380px;
+    box-shadow: var(--shadow-lg);
   }
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
+  #divPhotoInner { box-shadow: var(--shadow-lg); }
+  #skillsTitleText2, #schoolCurriculumTitleText2 { text-align: center; }
+  #skill3Left1 { text-align: center; }
+}
 
-  /* Small Devices, Tablets ( Screen == 992px ) */
-  @media only screen and (width : 992px) {
-    #englishButtonDiv, #frenchButtonDiv{
-      margin: 5px 0;
-    }
+@media only screen and (max-width: 991px) and (min-width: 769px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+  #headRow {
+    background: linear-gradient(135deg, #0f172a 0%, #1e40af 52%, #0891b2 100%);
+    min-height: 340px;
+    box-shadow: var(--shadow-lg);
   }
+  #divPhotoInner { box-shadow: var(--shadow-lg); }
+  #skill3Left1 { text-align: center; }
+}
 
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
-/* Small Devices, Tablets ( 992px < Screen <= 1024px ) */
+@media only screen and (width: 992px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+}
 
-@media only screen and (max-width : 1024px) and (min-width : 993px) {
-  #englishButtonDiv, #frenchButtonDiv{
-    margin: 5px 0;
-  }
-  
-  }
+@media only screen and (max-width: 1024px) and (min-width: 993px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+}
 
-/* Medium Devices, Desktops ( 1024px < Screen <= 1600px ) */
-
-/* Small Devices, Tablets ( Screen == 1025px ) */
-
-/* Small Devices, Tablets ( 1026px < Screen <= 1199px ) */
-
-/* Small Devices, Tablets ( 1200px < Screen <= 1224px ) */
-
-/* Small Devices, Tablets ( Screen == 1225px ) */
-
-/* Small Devices, Tablets ( 1226px < Screen <= 1229px ) */
-
-/* Small Devices, Tablets ( Screen == 1230px ) */
-
-/* Small Devices, Tablets ( 1231px < Screen <= 1234px ) */
-
-/* Small Devices, Tablets ( Screen == 1235px ) */
-
-/* Small Devices, Tablets ( 1236px < Screen <= 1234px ) */
-
-
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
-
-  /* Medium Devices, Desktops ( 1024px < Screen <= 1199px ) */
-  @media only screen and (max-width : 1199px) and (min-width : 1025px) {
-    #englishButtonDiv, #frenchButtonDiv{
-      margin: 5px 0;
-    }
-  }
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
-
-  /* Medium Devices, Desktops ( 1199px < Screen <= 1600px ) */
-  @media only screen and (max-width : 1600px) and (min-width : 1200px) {
-      
-  }
-
-/* ====================================================================== */ 
-/* ================================================== */ 
-/* ============================== */ 
-
-  /* Large Devices, Wide Screens ( 1600px < Screen ) */
-  @media only screen and (min-width : 1601px) {
-      
-  }
-
-/* Small Devices, Tablets ( 768px < Screen <= 990px ) 
-  @media only screen and (max-width : 991px) and (min-width : 769px) {
-           
-  };*/
-
-/* Medium Devices, Desktops ( 992px <= Screen < 1200px ) 
-  @media only screen and (max-width : 1199px) and (min-width : 992px) {
-           
-  };*/
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+  #englishButtonDiv, #frenchButtonDiv { margin: 5px 0; }
+}
